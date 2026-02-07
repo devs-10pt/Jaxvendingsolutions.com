@@ -1,13 +1,13 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "cd webapp && npm run build",
+  "buildCommand": "cd webapp && bun run build",
   "outputDirectory": "webapp/dist",
-  "installCommand": "cd webapp && npm install",
+  "installCommand": "cd webapp && bun install",
   "framework": "vite",
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-backend-url.com/api/:path*"
+      "destination": "https://preview-hkgpvvhlvkfd.dev.vibecode.run/api/:path*"
     }
   ]
 }
