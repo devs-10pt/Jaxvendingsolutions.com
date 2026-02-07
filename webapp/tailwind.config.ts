@@ -70,7 +70,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        syne: ["Syne", "sans-serif"],
+        display: ["Cormorant Garamond", "serif"],
+        sans: ["Instrument Sans", "system-ui", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
