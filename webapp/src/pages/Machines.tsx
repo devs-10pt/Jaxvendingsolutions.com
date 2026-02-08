@@ -154,14 +154,16 @@ const Machines = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
-                  <img
-                    src="/machines/mini-360-spec.png"
-                    alt="Mini 360 Smart Vending Machine"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
+                  <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
+                    <img
+                      src="/machines/mini-360-spec.png"
+                      alt="Mini 360 Smart Vending Machine"
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
@@ -197,14 +199,16 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
-                  <img
-                    src="/machines/plus-440.png"
-                    alt="Plus 440 Smart Vending Machine"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
+                  <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
+                    <img
+                      src="/machines/plus-440.png"
+                      alt="Plus 440 Smart Vending Machine"
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
@@ -240,14 +244,16 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
-                  <img
-                    src="/machines/pro-542-spec.png"
-                    alt="Pro 542 Smart Vending Machine"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
+                  <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
+                    <img
+                      src="/machines/pro-542-spec.png"
+                      alt="Pro 542 Smart Vending Machine"
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
@@ -283,14 +289,16 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
-                  <img
-                    src="/machines/max-620.png"
-                    alt="Max 620 Smart Vending Machine"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
+                  <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
+                    <img
+                      src="/machines/max-620.png"
+                      alt="Max 620 Smart Vending Machine"
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
@@ -326,14 +334,16 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
-                  <img
-                    src="/machines/max-620s.png"
-                    alt="Max 620S Smart Vending Machine with Digital Screen"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
+                  <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
+                    <img
+                      src="/machines/max-620s.png"
+                      alt="Max 620S Smart Vending Machine with Digital Screen"
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
@@ -369,14 +379,16 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
-                  <img
-                    src="/machines/ultra-1200.png"
-                    alt="Ultra 1200 Smart Vending Machine"
-                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                  />
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
+                  <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
+                    <img
+                      src="/machines/ultra-1200.png"
+                      alt="Ultra 1200 Smart Vending Machine"
+                      className="w-full h-full object-contain p-4"
+                    />
+                  </div>
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
