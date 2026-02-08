@@ -8,8 +8,21 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { useState } from "react";
 
 const ContactUs = () => {
+  const [selectedServices, setSelectedServices] = useState<string[]>([]);
+
+  const serviceOptions = ["Drink", "Snack", "Freezer", "Other"];
+
+  const toggleService = (service: string) => {
+    setSelectedServices((prev) =>
+      prev.includes(service)
+        ? prev.filter((s) => s !== service)
+        : [...prev, service]
+    );
+  };
+
   const contactInfo = [
     {
       icon: <MapPin className="w-6 h-6" />,
@@ -24,7 +37,7 @@ const ContactUs = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      detail: "hello@jaxvending.com",
+      detail: "sales@jaxvendingsolutions.com",
     },
     {
       icon: <Clock className="w-6 h-6" />,
@@ -155,6 +168,40 @@ const ContactUs = () => {
                   </label>
                   <Input
                     placeholder="e.g., Hospital, School, Apartment Complex"
+                    className="bg-background/50 border-border focus:border-primary transition-colors"
+                  />
+                </div>
+
+                {/* Service Selection */}
+                <div className="space-y-3">
+                  <label className="text-sm font-medium text-foreground">
+                    Service you're looking for
+                  </label>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                    {serviceOptions.map((service) => (
+                      <button
+                        key={service}
+                        type="button"
+                        onClick={() => toggleService(service)}
+                        className={`py-2 px-4 rounded-lg font-medium transition-all duration-300 border-2 ${
+                          selectedServices.includes(service)
+                            ? "border-primary bg-primary/10 text-primary shadow-[0_0_15px_rgba(var(--primary-rgb),0.3)]"
+                            : "border-border bg-background/50 text-foreground hover:border-primary/50"
+                        }`}
+                      >
+                        {service}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Zip Code */}
+                <div className="space-y-2">
+                  <label className="text-sm font-medium text-foreground">
+                    Zip Code
+                  </label>
+                  <Input
+                    placeholder="32210"
                     className="bg-background/50 border-border focus:border-primary transition-colors"
                   />
                 </div>
