@@ -40,6 +40,20 @@ const Machines = () => {
       {/* AI Vending Machines Section */}
       <section className="relative py-12 sm:py-16 lg:py-32 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
+          {/* Logo Section - Mobile & Tablet Only */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 } as any}
+            animate={{ opacity: 1, scale: 1 } as any}
+            transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
+            className="flex justify-center mb-8 sm:mb-12 lg:hidden"
+          >
+            <img
+              src="/logo.png"
+              alt="Jax Vending Solutions Logo"
+              className="h-[170px] w-auto drop-shadow-2xl"
+            />
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 30 } as any}
             whileInView={{ opacity: 1, y: 0 } as any}

@@ -65,6 +65,20 @@ const ContactUs = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
+          {/* Logo Section - Mobile & Tablet Only */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 } as any}
+            animate={{ opacity: 1, scale: 1 } as any}
+            transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
+            className="flex justify-center mb-6 sm:mb-8 lg:hidden"
+          >
+            <img
+              src="/logo.png"
+              alt="Jax Vending Solutions Logo"
+              className="h-[170px] w-auto drop-shadow-2xl"
+            />
+          </motion.div>
+
           <motion.h1
             initial={{ opacity: 0, y: 30 } as any}
             animate={{ opacity: 1, y: 0 } as any}
