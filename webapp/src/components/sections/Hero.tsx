@@ -22,17 +22,17 @@ export const Hero = () => {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
           className="space-y-6 sm:space-y-8"
         >
-          {/* Logo Section - Mobile Only */}
+          {/* Logo Section - Phone Only */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 } as any}
             animate={{ opacity: 1, scale: 1 } as any}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
-            className="flex justify-center mb-4 sm:mb-6 lg:hidden"
+            className="flex justify-center mb-4 sm:mb-6 sm:hidden"
           >
             <img
               src="/logo.png"
               alt="Jax Vending Solutions Logo"
-              className="h-32 sm:h-40 md:h-48 w-auto drop-shadow-2xl"
+              className="h-32 w-auto drop-shadow-2xl"
             />
           </motion.div>
 
