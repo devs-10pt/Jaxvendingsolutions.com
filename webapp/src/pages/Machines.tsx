@@ -154,28 +154,38 @@ const Machines = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-8 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20">
-                <div className="mb-6">
-                  <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                    HAHA VENDING-Mini 360
-                  </h3>
-                  <p className="text-3xl font-bold text-primary mb-4">$2,999</p>
-                  <p className="text-base text-muted-foreground leading-relaxed">
-                    Compact AI-powered vending solution perfect for smaller spaces. Features smart inventory tracking and cashless payments.
-                  </p>
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+                {/* Machine Image */}
+                <div className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                  <img
+                    src="/machines/mini-360.jpg"
+                    alt="HAHA VENDING-Mini 360"
+                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
-                <div className="space-y-3 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <Cpu className="w-4 h-4 text-primary" />
-                    <span>AI Visual Recognition (99% accuracy)</span>
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
+                      HAHA VENDING-Mini 360
+                    </h3>
+                    <p className="text-3xl font-bold text-primary mb-4">$2,999</p>
+                    <p className="text-base text-muted-foreground leading-relaxed">
+                      Compact AI-powered vending solution perfect for smaller spaces. Features smart inventory tracking and cashless payments.
+                    </p>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <ShoppingCart className="w-4 h-4 text-primary" />
-                    <span>360 Product Capacity</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Package className="w-4 h-4 text-primary" />
-                    <span>Real-Time Inventory Management</span>
+                  <div className="space-y-3 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <Cpu className="w-4 h-4 text-primary" />
+                      <span>AI Visual Recognition (99% accuracy)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <ShoppingCart className="w-4 h-4 text-primary" />
+                      <span>360 Product Capacity</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Package className="w-4 h-4 text-primary" />
+                      <span>Real-Time Inventory Management</span>
+                    </div>
                   </div>
                 </div>
               </Card>
@@ -188,28 +198,38 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-8 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20">
-                <div className="mb-6">
-                  <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                    HAHA VENDING-Pro 542
-                  </h3>
-                  <p className="text-3xl font-bold text-primary mb-4">$4,999</p>
-                  <p className="text-base text-muted-foreground leading-relaxed">
-                    Professional-grade AI vending solution with expanded capacity. Ideal for offices, schools, and high-traffic areas.
-                  </p>
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+                {/* Machine Image */}
+                <div className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                  <img
+                    src="/machines/pro-542.jpg"
+                    alt="HAHA VENDING-Pro 542"
+                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
-                <div className="space-y-3 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <Cpu className="w-4 h-4 text-primary" />
-                    <span>Advanced AI Product Recognition</span>
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
+                      HAHA VENDING-Pro 542
+                    </h3>
+                    <p className="text-3xl font-bold text-primary mb-4">$4,999</p>
+                    <p className="text-base text-muted-foreground leading-relaxed">
+                      Professional-grade AI vending solution with expanded capacity. Ideal for offices, schools, and high-traffic areas.
+                    </p>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <ShoppingCart className="w-4 h-4 text-primary" />
-                    <span>542 Product Capacity</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <CreditCard className="w-4 h-4 text-primary" />
-                    <span>Contactless Payment System</span>
+                  <div className="space-y-3 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <Cpu className="w-4 h-4 text-primary" />
+                      <span>Advanced AI Product Recognition</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <ShoppingCart className="w-4 h-4 text-primary" />
+                      <span>542 Product Capacity</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CreditCard className="w-4 h-4 text-primary" />
+                      <span>Contactless Payment System</span>
+                    </div>
                   </div>
                 </div>
               </Card>
