@@ -33,7 +33,7 @@ export const Navigation = () => {
               alt="Jax Vending Solutions Logo"
               whileHover={{ scale: 1.1, rotate: 2 } as any}
               whileTap={{ scale: 0.95 } as any}
-              className="h-16 sm:h-20 w-auto cursor-pointer drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300"
+              className="h-[70px] sm:h-[88px] w-auto cursor-pointer drop-shadow-lg hover:drop-shadow-2xl transition-all duration-300"
             />
           </button>
 
