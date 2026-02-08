@@ -142,6 +142,14 @@ export const WhoWeServe = () => {
           imagePosition="left"
           index={2}
         />
+
+        <ServeCard
+          title="Businesses & Office Spaces"
+          headline="Keep your team energized and productive"
+          description="Boost workplace satisfaction with convenient access to snacks, beverages, and healthy options. Our smart vending solutions reduce downtime and keep your employees focused throughout the day."
+          imagePosition="right"
+          index={3}
+        />
       </div>
     </section>
   );
