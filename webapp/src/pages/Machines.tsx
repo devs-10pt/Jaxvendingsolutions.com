@@ -35,33 +35,6 @@ const Machines = () => {
     <div className="min-h-screen">
       <Navigation />
 
-      {/* Hero Section */}
-      <section className="relative min-h-[60vh] flex items-center justify-center px-6 py-32">
-        <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
-
-        <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <motion.h1
-            initial={{ opacity: 0, y: 30 } as any}
-            animate={{ opacity: 1, y: 0 } as any}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
-            className="text-5xl sm:text-6xl lg:text-7xl font-display font-semibold leading-tight text-foreground mb-6"
-          >
-            Premium Smart{" "}
-            <span className="text-primary">Vending Machines</span>
-          </motion.h1>
-
-          <motion.p
-            initial={{ opacity: 0, y: 20 } as any}
-            animate={{ opacity: 1, y: 0 } as any}
-            transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
-            className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
-          >
-            State-of-the-art technology meets elegant design. Our machines are
-            built for reliability, convenience, and maximum customer satisfaction.
-          </motion.p>
-        </div>
-      </section>
-
       {/* AI Vending Machines Section */}
       <section className="relative py-20 lg:py-32 px-6">
         <div className="max-w-7xl mx-auto">
