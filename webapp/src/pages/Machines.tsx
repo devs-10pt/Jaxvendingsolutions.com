@@ -156,35 +156,77 @@ const Machines = () => {
             >
               <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
                   <img
-                    src="/machines/mini-360.jpg"
-                    alt="HAHA VENDING-Mini 360"
-                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                    src="/machines/mini-360-spec.png"
+                    alt="Mini 360 Smart Vending Machine"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
                     <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                      HAHA VENDING-Mini 360
+                      Mini 360
                     </h3>
-                    <p className="text-3xl font-bold text-primary mb-4">$2,999</p>
-                    <p className="text-base text-muted-foreground leading-relaxed">
-                      Compact AI-powered vending solution perfect for smaller spaces. Features smart inventory tracking and cashless payments.
+                    <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                      Compact smart vending solution perfect for smaller spaces. 6 shelves with mixed capacity for bottles and cans.
                     </p>
                   </div>
                   <div className="space-y-3 text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
-                      <Cpu className="w-4 h-4 text-primary" />
-                      <span>AI Visual Recognition (99% accuracy)</span>
-                    </div>
-                    <div className="flex items-center gap-2">
                       <ShoppingCart className="w-4 h-4 text-primary" />
-                      <span>360 Product Capacity</span>
+                      <span>≈ 252 bottles of beverage</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Package className="w-4 h-4 text-primary" />
-                      <span>Real-Time Inventory Management</span>
+                      <span>22.8" × 26" × 76" (W×D×H)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Cpu className="w-4 h-4 text-primary" />
+                      <span>24H Smart Vending Technology</span>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </motion.div>
+
+            {/* Plus 440 */}
+            <motion.div
+              initial={{ opacity: 0, y: 40 } as any}
+              whileInView={{ opacity: 1, y: 0 } as any}
+              transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
+              viewport={{ once: true } as any}
+            >
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+                {/* Machine Image */}
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                  <img
+                    src="/machines/plus-440.png"
+                    alt="Plus 440 Smart Vending Machine"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
+                      Plus 440
+                    </h3>
+                    <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                      Mid-size AI vending with enhanced capacity. Perfect for offices and small retail locations.
+                    </p>
+                  </div>
+                  <div className="space-y-3 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <ShoppingCart className="w-4 h-4 text-primary" />
+                      <span>≈ 324 bottles of beverage</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Package className="w-4 h-4 text-primary" />
+                      <span>27.2" × 27" × 76.6" (W×D×H)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Thermometer className="w-4 h-4 text-primary" />
+                      <span>Advanced Refrigeration System</span>
                     </div>
                   </div>
                 </div>
@@ -195,173 +237,126 @@ const Machines = () => {
             <motion.div
               initial={{ opacity: 0, y: 40 } as any}
               whileInView={{ opacity: 1, y: 0 } as any}
-              transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
+              transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
               <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
                 {/* Machine Image */}
-                <div className="relative h-64 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
                   <img
-                    src="/machines/pro-542.jpg"
-                    alt="HAHA VENDING-Pro 542"
-                    className="w-full h-full object-contain p-4 group-hover:scale-105 transition-transform duration-500"
+                    src="/machines/pro-542-spec.png"
+                    alt="Pro 542 Smart Vending Machine"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="p-8">
                   <div className="mb-6">
                     <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                      HAHA VENDING-Pro 542
+                      Pro 542
                     </h3>
-                    <p className="text-3xl font-bold text-primary mb-4">$4,999</p>
-                    <p className="text-base text-muted-foreground leading-relaxed">
-                      Professional-grade AI vending solution with expanded capacity. Ideal for offices, schools, and high-traffic areas.
+                    <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                      Professional-grade AI vending with expanded capacity. Ideal for high-traffic areas and campuses.
                     </p>
                   </div>
                   <div className="space-y-3 text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
-                      <Cpu className="w-4 h-4 text-primary" />
-                      <span>Advanced AI Product Recognition</span>
-                    </div>
-                    <div className="flex items-center gap-2">
                       <ShoppingCart className="w-4 h-4 text-primary" />
-                      <span>542 Product Capacity</span>
+                      <span>≈ 378 bottles of beverage</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <CreditCard className="w-4 h-4 text-primary" />
-                      <span>Contactless Payment System</span>
+                      <Package className="w-4 h-4 text-primary" />
+                      <span>29.5" × 25.6" × 79.5" (W×D×H)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Cpu className="w-4 h-4 text-primary" />
+                      <span>AI Product Recognition</span>
                     </div>
                   </div>
                 </div>
               </Card>
             </motion.div>
 
-            {/* DC-620Z Combo */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 } as any}
-              whileInView={{ opacity: 1, y: 0 } as any}
-              transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
-              viewport={{ once: true } as any}
-            >
-              <Card className="p-8 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20">
-                <div className="mb-6">
-                  <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                    DC-620Z Smart Combo
-                  </h3>
-                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                    High-capacity combo vending machine for fresh food, snacks, and cold beverages. Perfect for 24/7 convenience locations.
-                  </p>
-                </div>
-                <div className="space-y-3 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <Thermometer className="w-4 h-4 text-primary" />
-                    <span>528 Bottle Capacity (Refrigerated)</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Package className="w-4 h-4 text-primary" />
-                    <span>Multi-Category Product Support</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Wifi className="w-4 h-4 text-primary" />
-                    <span>APP Management System</span>
-                  </div>
-                </div>
-              </Card>
-            </motion.div>
-
-            {/* Large Smart Machine */}
+            {/* Max 620 */}
             <motion.div
               initial={{ opacity: 0, y: 40 } as any}
               whileInView={{ opacity: 1, y: 0 } as any}
               transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-8 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20">
-                <div className="mb-6">
-                  <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                    Large Smart Vending
-                  </h3>
-                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                    Enterprise solution for specialty operators, unmanned supermarkets, and factories. Maximum capacity with AI-powered efficiency.
-                  </p>
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+                {/* Machine Image */}
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                  <img
+                    src="/machines/max-620.png"
+                    alt="Max 620 Smart Vending Machine"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
-                <div className="space-y-3 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <Thermometer className="w-4 h-4 text-primary" />
-                    <span>864 Bottle Capacity (Cooled)</span>
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
+                      Max 620
+                    </h3>
+                    <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                      High-capacity smart vending for demanding environments. Maximum storage with intelligent management.
+                    </p>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Cpu className="w-4 h-4 text-primary" />
-                    <span>Self-Serve AI Recognition System</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <ShoppingCart className="w-4 h-4 text-primary" />
-                    <span>Grab and Go Shopping Experience</span>
+                  <div className="space-y-3 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <ShoppingCart className="w-4 h-4 text-primary" />
+                      <span>≈ 420 bottles of beverage</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Package className="w-4 h-4 text-primary" />
+                      <span>31.5" × 26.4" × 79.5" (W×D×H)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Wifi className="w-4 h-4 text-primary" />
+                      <span>Cloud-Connected Operations</span>
+                    </div>
                   </div>
                 </div>
               </Card>
             </motion.div>
 
-            {/* 245-Capacity Model */}
+            {/* Ultra 1200 */}
             <motion.div
               initial={{ opacity: 0, y: 40 } as any}
               whileInView={{ opacity: 1, y: 0 } as any}
               transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-8 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20">
-                <div className="mb-6">
-                  <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                    AI Smart 245
-                  </h3>
-                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                    Optimized for offices, schools, and gyms. Compact footprint with smart features and contactless payment technology.
-                  </p>
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+                {/* Machine Image */}
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                  <img
+                    src="/machines/ultra-1200.png"
+                    alt="Ultra 1200 Smart Vending Machine"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
                 </div>
-                <div className="space-y-3 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <ShoppingCart className="w-4 h-4 text-primary" />
-                    <span>245 Product Capacity</span>
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
+                      Ultra 1200
+                    </h3>
+                    <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                      Enterprise double-door solution for maximum capacity. Dual-zone cooling for unmanned stores and factories.
+                    </p>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <CreditCard className="w-4 h-4 text-primary" />
-                    <span>Contactless Payment Options</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Package className="w-4 h-4 text-primary" />
-                    <span>Real-Time Inventory Tracking</span>
-                  </div>
-                </div>
-              </Card>
-            </motion.div>
-
-            {/* Smart Cooler */}
-            <motion.div
-              initial={{ opacity: 0, y: 40 } as any}
-              whileInView={{ opacity: 1, y: 0 } as any}
-              transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] } as any}
-              viewport={{ once: true } as any}
-            >
-              <Card className="p-8 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20">
-                <div className="mb-6">
-                  <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
-                    Smart Cooler Vending
-                  </h3>
-                  <p className="text-base text-muted-foreground leading-relaxed mb-4">
-                    Refrigerated AI vending solution for beverages and cold products. Energy-efficient cooling with smart temperature control.
-                  </p>
-                </div>
-                <div className="space-y-3 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <Thermometer className="w-4 h-4 text-primary" />
-                    <span>Advanced Refrigeration System</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Zap className="w-4 h-4 text-primary" />
-                    <span>Energy Efficient Operation</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Cpu className="w-4 h-4 text-primary" />
-                    <span>AI-Powered Computer Vision</span>
+                  <div className="space-y-3 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <ShoppingCart className="w-4 h-4 text-primary" />
+                      <span>≈ 756 bottles of beverage</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Package className="w-4 h-4 text-primary" />
+                      <span>53.9" × 28.0" × 79.5" (W×D×H)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Thermometer className="w-4 h-4 text-primary" />
+                      <span>12 shelves, double-door design</span>
+                    </div>
                   </div>
                 </div>
               </Card>
