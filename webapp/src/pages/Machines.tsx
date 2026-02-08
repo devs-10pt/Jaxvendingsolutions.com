@@ -428,7 +428,7 @@ const Machines = () => {
           >
             <Card className="p-10 lg:p-12 glass-light dark:glass shadow-premium">
               <h3 className="text-3xl lg:text-4xl font-display font-semibold text-foreground mb-6 text-center">
-                What Makes Our AI Vending Machines Special?
+                Jax Vending Solutions Partners With The Best Machines In The Industry
               </h3>
               <div className="grid md:grid-cols-2 gap-8 mt-10">
                 <div>
