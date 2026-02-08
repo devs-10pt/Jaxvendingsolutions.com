@@ -154,7 +154,7 @@ const Machines = () => {
               transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-[0_0_40px_rgba(var(--primary-rgb),0.4)] transition-all duration-500 group overflow-hidden border-2 border-transparent hover:border-primary/30">
                 {/* Machine Image */}
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
                   <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
@@ -199,7 +199,7 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-[0_0_40px_rgba(var(--primary-rgb),0.4)] transition-all duration-500 group overflow-hidden border-2 border-transparent hover:border-primary/30">
                 {/* Machine Image */}
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
                   <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
@@ -244,7 +244,7 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-[0_0_40px_rgba(var(--primary-rgb),0.4)] transition-all duration-500 group overflow-hidden border-2 border-transparent hover:border-primary/30">
                 {/* Machine Image */}
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
                   <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
@@ -289,7 +289,7 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.3, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-[0_0_40px_rgba(var(--primary-rgb),0.4)] transition-all duration-500 group overflow-hidden border-2 border-transparent hover:border-primary/30">
                 {/* Machine Image */}
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
                   <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
@@ -334,7 +334,7 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-[0_0_40px_rgba(var(--primary-rgb),0.4)] transition-all duration-500 group overflow-hidden border-2 border-transparent hover:border-primary/30">
                 {/* Machine Image */}
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
                   <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
@@ -379,7 +379,7 @@ const Machines = () => {
               transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
-              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group overflow-hidden">
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-[0_0_40px_rgba(var(--primary-rgb),0.4)] transition-all duration-500 group overflow-hidden border-2 border-transparent hover:border-primary/30">
                 {/* Machine Image */}
                 <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5 p-6">
                   <div className="relative h-full rounded-xl border-2 border-primary/20 group-hover:border-primary/40 transition-all duration-500 group-hover:shadow-[0_0_30px_rgba(var(--primary-rgb),0.3)]">
