@@ -21,17 +21,17 @@ const ServeCard = ({ title, headline, description, imagePosition, index, imageUr
       initial={{ opacity: 0, x: imagePosition === "left" ? 30 : -30 } as any}
       animate={isInView ? { opacity: 1, x: 0 } as any : {}}
       transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
-      className="flex flex-col justify-center space-y-6"
+      className="flex flex-col justify-center space-y-4 sm:space-y-6"
     >
       <div className="inline-block">
-        <span className="text-sm font-semibold text-primary uppercase tracking-wider">
+        <span className="text-xs sm:text-sm font-semibold text-primary uppercase tracking-wider">
           {title}
         </span>
       </div>
-      <h3 className="text-3xl sm:text-4xl lg:text-5xl font-display font-semibold text-foreground leading-tight">
+      <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-display font-semibold text-foreground leading-tight">
         {headline}
       </h3>
-      <p className="text-base lg:text-lg text-muted-foreground leading-relaxed max-w-xl">
+      <p className="text-sm sm:text-base lg:text-lg text-muted-foreground leading-relaxed max-w-xl">
         {description}
       </p>
     </motion.div>
@@ -42,7 +42,7 @@ const ServeCard = ({ title, headline, description, imagePosition, index, imageUr
       initial={{ opacity: 0, scale: 0.95 } as any}
       animate={isInView ? { opacity: 1, scale: 1 } as any : {}}
       transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
-      className="relative h-[400px] lg:h-[500px] rounded-3xl overflow-hidden shadow-premium-lg"
+      className="relative h-[280px] sm:h-[350px] md:h-[400px] lg:h-[500px] rounded-2xl sm:rounded-3xl overflow-hidden shadow-premium-lg"
     >
       {imageUrl ? (
         <>
@@ -77,7 +77,7 @@ const ServeCard = ({ title, headline, description, imagePosition, index, imageUr
   );
 
   return (
-    <div ref={ref} className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+    <div ref={ref} className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
       {imagePosition === "left" ? (
         <>
           {image}
@@ -98,8 +98,8 @@ export const WhoWeServe = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section className="relative py-20 lg:py-32 px-6 bg-muted/30">
-      <div className="max-w-7xl mx-auto space-y-24 lg:space-y-32">
+    <section className="relative py-12 sm:py-16 lg:py-32 px-4 sm:px-6 bg-muted/30">
+      <div className="max-w-7xl mx-auto space-y-16 sm:space-y-20 lg:space-y-32">
         {/* Section header */}
         <motion.div
           ref={ref}
@@ -108,11 +108,11 @@ export const WhoWeServe = () => {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
           className="text-center"
         >
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display font-semibold text-foreground mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-semibold text-foreground mb-4 sm:mb-6 px-2">
             Serving Jacksonville's{" "}
             <span className="text-primary">Finest Communities</span>
           </h2>
-          <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Modern Vending Machines for Modern Times.</p>
+          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed px-4">Modern Vending Machines for Modern Times.</p>
         </motion.div>
 
         {/* Service cards */}

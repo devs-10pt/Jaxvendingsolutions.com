@@ -35,22 +35,22 @@ const ContactUs = () => {
 
   const contactInfo = [
     {
-      icon: <MapPin className="w-6 h-6" />,
+      icon: <MapPin className="w-5 h-5 sm:w-6 sm:h-6" />,
       title: "Location",
       detail: "Jacksonville, Florida",
     },
     {
-      icon: <Phone className="w-6 h-6" />,
+      icon: <Phone className="w-5 h-5 sm:w-6 sm:h-6" />,
       title: "Phone",
       detail: "(555) 123-4567",
     },
     {
-      icon: <Mail className="w-6 h-6" />,
+      icon: <Mail className="w-5 h-5 sm:w-6 sm:h-6" />,
       title: "Email",
       detail: "sales@jaxvendingsolutions.com",
     },
     {
-      icon: <Clock className="w-6 h-6" />,
+      icon: <Clock className="w-5 h-5 sm:w-6 sm:h-6" />,
       title: "Hours",
       detail: "24/7 Support Available",
     },
@@ -61,7 +61,7 @@ const ContactUs = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[50vh] flex items-center justify-center px-6 py-32">
+      <section className="relative min-h-[40vh] sm:min-h-[50vh] flex items-center justify-center px-4 sm:px-6 py-24 sm:py-32">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -69,7 +69,7 @@ const ContactUs = () => {
             initial={{ opacity: 0, y: 30 } as any}
             animate={{ opacity: 1, y: 0 } as any}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
-            className="text-5xl sm:text-6xl lg:text-7xl font-display font-semibold leading-tight text-foreground mb-6"
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-display font-semibold leading-tight text-foreground mb-4 sm:mb-6 px-2"
           >
             Let's Start a{" "}
             <span className="text-primary">Conversation</span>
@@ -79,7 +79,7 @@ const ContactUs = () => {
             initial={{ opacity: 0, y: 20 } as any}
             animate={{ opacity: 1, y: 0 } as any}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
-            className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+            className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed px-4"
           >
             Ready to bring premium vending to your Jacksonville property? We'd love
             to hear from you.
@@ -88,9 +88,9 @@ const ContactUs = () => {
       </section>
 
       {/* Contact Info Cards */}
-      <section className="relative py-12 px-6">
+      <section className="relative py-8 sm:py-12 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {contactInfo.map((info, index) => (
               <motion.div
                 key={index}
@@ -99,14 +99,14 @@ const ContactUs = () => {
                 transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] } as any}
                 viewport={{ once: true } as any}
               >
-                <Card className="p-6 text-center glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-300 group">
-                  <div className="mb-4 inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
+                <Card className="p-5 sm:p-6 text-center glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-300 group h-full">
+                  <div className="mb-3 sm:mb-4 inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
                     {info.icon}
                   </div>
-                  <h3 className="text-lg font-semibold text-foreground mb-2">
+                  <h3 className="text-base sm:text-lg font-semibold text-foreground mb-1 sm:mb-2">
                     {info.title}
                   </h3>
-                  <p className="text-muted-foreground">{info.detail}</p>
+                  <p className="text-sm sm:text-base text-muted-foreground break-words">{info.detail}</p>
                 </Card>
               </motion.div>
             ))}
@@ -115,7 +115,7 @@ const ContactUs = () => {
       </section>
 
       {/* Contact Form */}
-      <section className="relative py-20 px-6">
+      <section className="relative py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 30 } as any}
@@ -123,20 +123,20 @@ const ContactUs = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
             viewport={{ once: true } as any}
           >
-            <Card className="p-8 lg:p-12 glass-light dark:glass shadow-premium-lg">
-              <h2 className="text-3xl sm:text-4xl font-display font-semibold text-foreground mb-8 text-center">
+            <Card className="p-6 sm:p-8 lg:p-12 glass-light dark:glass shadow-premium-lg">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-display font-semibold text-foreground mb-6 sm:mb-8 text-center">
                 Send Us a Message
               </h2>
 
-              <form className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-6">
+              <form className="space-y-5 sm:space-y-6">
+                <div className="grid sm:grid-cols-2 gap-5 sm:gap-6">
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-foreground">
                       First Name
                     </label>
                     <Input
                       placeholder="John"
-                      className="bg-background/50 border-border focus:border-primary transition-colors"
+                      className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                     />
                   </div>
                   <div className="space-y-2">
@@ -145,7 +145,7 @@ const ContactUs = () => {
                     </label>
                     <Input
                       placeholder="Smith"
-                      className="bg-background/50 border-border focus:border-primary transition-colors"
+                      className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                     />
                   </div>
                 </div>
@@ -157,7 +157,7 @@ const ContactUs = () => {
                   <Input
                     type="email"
                     placeholder="john@example.com"
-                    className="bg-background/50 border-border focus:border-primary transition-colors"
+                    className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                   />
                 </div>
 
@@ -168,7 +168,7 @@ const ContactUs = () => {
                   <Input
                     type="tel"
                     placeholder="(555) 123-4567"
-                    className="bg-background/50 border-border focus:border-primary transition-colors"
+                    className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                   />
                 </div>
 
@@ -178,7 +178,7 @@ const ContactUs = () => {
                   </label>
                   <Input
                     placeholder="e.g., Hospital, School, Apartment Complex"
-                    className="bg-background/50 border-border focus:border-primary transition-colors"
+                    className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                   />
                 </div>
 
@@ -187,13 +187,13 @@ const ContactUs = () => {
                   <label className="text-sm font-medium text-foreground">
                     Service you're looking for
                   </label>
-                  <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-3">
                     {serviceOptions.map((service) => (
                       <button
                         key={service}
                         type="button"
                         onClick={() => toggleService(service)}
-                        className={`py-2 px-4 rounded-lg font-medium transition-all duration-300 border-2 ${
+                        className={`py-3 px-3 sm:px-4 rounded-lg font-medium transition-all duration-300 border-2 text-sm sm:text-base min-h-[48px] ${
                           selectedServices.includes(service)
                             ? "border-primary bg-primary/10 text-primary shadow-[0_0_15px_rgba(var(--primary-rgb),0.3)]"
                             : "border-border bg-background/50 text-foreground hover:border-primary/50"
@@ -212,7 +212,7 @@ const ContactUs = () => {
                   </label>
                   <Input
                     placeholder="32210"
-                    className="bg-background/50 border-border focus:border-primary transition-colors"
+                    className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                   />
                 </div>
 
@@ -221,13 +221,13 @@ const ContactUs = () => {
                   <label className="text-sm font-medium text-foreground">
                     Machine Interest
                   </label>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3">
                     {machineOptions.map((machine) => (
                       <button
                         key={machine}
                         type="button"
                         onClick={() => toggleMachine(machine)}
-                        className={`py-2 px-4 rounded-lg font-medium transition-all duration-300 border-2 ${
+                        className={`py-3 px-2 sm:px-4 rounded-lg font-medium transition-all duration-300 border-2 text-xs sm:text-sm min-h-[48px] ${
                           selectedMachines.includes(machine)
                             ? "border-primary bg-primary/10 text-primary shadow-[0_0_15px_rgba(var(--primary-rgb),0.3)]"
                             : "border-border bg-background/50 text-foreground hover:border-primary/50"
@@ -246,14 +246,14 @@ const ContactUs = () => {
                   <Textarea
                     placeholder="Tell us about your space and needs..."
                     rows={6}
-                    className="bg-background/50 border-border focus:border-primary transition-colors resize-none"
+                    className="bg-background/50 border-border focus:border-primary transition-colors resize-none text-base"
                   />
                 </div>
 
                 <Button
                   type="submit"
                   size="lg"
-                  className="w-full text-base py-6 shadow-premium hover:shadow-premium-lg transition-all duration-300"
+                  className="w-full text-sm sm:text-base py-5 sm:py-6 min-h-[52px] shadow-premium hover:shadow-premium-lg transition-all duration-300"
                 >
                   Send Message
                 </Button>
