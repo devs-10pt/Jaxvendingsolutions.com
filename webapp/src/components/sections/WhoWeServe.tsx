@@ -157,6 +157,7 @@ export const WhoWeServe = () => {
           headline="Fuel your fitness journey"
           description="Protein bars, sports drinks, and healthy snacks available 24/7. Our machines stock the nutrition your members need before, during, and after their workouts."
           imagePosition="left"
+          imageUrl="/gyms-fitness.png"
           index={4}
         />
       </div>
