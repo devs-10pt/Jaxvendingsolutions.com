@@ -4,7 +4,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, MapPin, Phone, Mail } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 export const CTASection = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -95,7 +95,17 @@ export const Footer = () => {
 
         {/* Bottom bar */}
         <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-border/50 text-center text-xs sm:text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Jax Vending Solutions. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Jax Vending Solutions. All rights reserved.
+            {" • "}
+            <Link to="/terms" className="hover:text-foreground transition-colors underline">
+              Terms and Conditions
+            </Link>
+            {" • "}
+            <Link to="/privacy" className="hover:text-foreground transition-colors underline">
+              Privacy Policy
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
