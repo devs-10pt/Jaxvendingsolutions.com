@@ -132,6 +132,7 @@ export const WhoWeServe = () => {
           headline="Healthy options for growing minds"
           description="From grab-and-go breakfasts to after-school snacks, we stock products that fuel learning and athletics. Cashless payments make it easy and safe for students of all ages."
           imagePosition="right"
+          imageUrl="/schools-universities.png"
           index={1}
         />
 
