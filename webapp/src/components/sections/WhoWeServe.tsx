@@ -112,9 +112,7 @@ export const WhoWeServe = () => {
             Serving Jacksonville's{" "}
             <span className="text-primary">Finest Communities</span>
           </h2>
-          <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Premium vending solutions tailored to the unique needs of your space.
-          </p>
+          <p className="text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">Modern Vending Machines for Modern Times.</p>
         </motion.div>
 
         {/* Service cards */}
