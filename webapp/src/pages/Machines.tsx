@@ -319,11 +319,54 @@ const Machines = () => {
               </Card>
             </motion.div>
 
-            {/* Ultra 1200 */}
+            {/* Max 620S */}
             <motion.div
               initial={{ opacity: 0, y: 40 } as any}
               whileInView={{ opacity: 1, y: 0 } as any}
               transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] } as any}
+              viewport={{ once: true } as any}
+            >
+              <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
+                {/* Machine Image */}
+                <div className="relative h-80 overflow-hidden bg-gradient-to-br from-primary/5 to-accent/5">
+                  <img
+                    src="/machines/max-620s.png"
+                    alt="Max 620S Smart Vending Machine with Digital Screen"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-8">
+                  <div className="mb-6">
+                    <h3 className="text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
+                      Max 620S
+                    </h3>
+                    <p className="text-base text-muted-foreground leading-relaxed mb-4">
+                      Premium model with integrated digital display screen for video marketing. Same capacity as Max 620 with enhanced advertising capabilities.
+                    </p>
+                  </div>
+                  <div className="space-y-3 text-sm text-muted-foreground">
+                    <div className="flex items-center gap-2">
+                      <ShoppingCart className="w-4 h-4 text-primary" />
+                      <span>≈ 420 bottles of beverage</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Package className="w-4 h-4 text-primary" />
+                      <span>31.5" × 26.4" × 85.8" (W×D×H)</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Cpu className="w-4 h-4 text-primary" />
+                      <span>Built-in Digital Display Screen</span>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </motion.div>
+
+            {/* Ultra 1200 */}
+            <motion.div
+              initial={{ opacity: 0, y: 40 } as any}
+              whileInView={{ opacity: 1, y: 0 } as any}
+              transition={{ duration: 0.6, delay: 0.5, ease: [0.22, 1, 0.36, 1] } as any}
               viewport={{ once: true } as any}
             >
               <Card className="p-0 h-full glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-500 group border-2 border-transparent hover:border-primary/20 overflow-hidden">
