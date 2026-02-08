@@ -17,23 +17,23 @@ export const MachineShowcase = () => {
           ref={ref}
           className="flex flex-col gap-12 lg:gap-16 items-center"
         >
-          {/* First Machine - Florida Crest (smaller) */}
+          {/* Florida Seal (small) */}
           <motion.div
             initial={{ opacity: 0, y: 30 } as any}
             animate={isInView ? { opacity: 1, y: 0 } as any : {}}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
-            className="relative group w-full max-w-md"
+            className="relative group w-full max-w-xs"
           >
             {/* Glow effect */}
             <div className="absolute inset-0">
-              <div className="absolute inset-0 bg-primary/20 blur-[80px] group-hover:blur-[100px] transition-all duration-700 animate-pulse-slow" />
-              <div className="absolute inset-0 bg-accent/10 blur-[60px] group-hover:blur-[80px] transition-all duration-700 delay-150 animate-pulse-slow" />
+              <div className="absolute inset-0 bg-primary/20 blur-[60px] group-hover:blur-[80px] transition-all duration-700 animate-pulse-slow" />
+              <div className="absolute inset-0 bg-accent/10 blur-[40px] group-hover:blur-[60px] transition-all duration-700 delay-150 animate-pulse-slow" />
             </div>
 
             {/* Image container with floating animation */}
             <motion.div
               animate={{
-                y: [0, -15, 0],
+                y: [0, -10, 0],
               } as any}
               transition={{
                 duration: 6,
@@ -43,8 +43,8 @@ export const MachineShowcase = () => {
               className="relative z-10"
             >
               <img
-                src="/vending-machine-1.png"
-                alt="Premium vending machine with Florida crest"
+                src="/florida-seal.png"
+                alt="State of Florida seal"
                 className="w-full h-auto object-contain drop-shadow-2xl"
               />
             </motion.div>
