@@ -3,8 +3,11 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 export const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 py-24 sm:py-32 lg:py-0">
       {/* Ambient background gradient */}
@@ -45,6 +48,7 @@ export const Hero = () => {
           >
             <Button
               size="lg"
+              onClick={() => navigate('/contact')}
               className="text-sm sm:text-base px-6 sm:px-8 py-5 sm:py-6 min-h-[48px] shadow-premium hover:shadow-premium-lg transition-all duration-300 w-full sm:w-auto"
             >
               Schedule Consultation
@@ -53,6 +57,7 @@ export const Hero = () => {
             <Button
               size="lg"
               variant="outline"
+              onClick={() => navigate('/machines')}
               className="text-sm sm:text-base px-6 sm:px-8 py-5 sm:py-6 min-h-[48px] shadow-sm hover:shadow-md transition-all duration-300 w-full sm:w-auto"
             >
               Learn More
