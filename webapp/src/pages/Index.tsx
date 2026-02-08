@@ -13,8 +13,8 @@ const Index = () => {
       <Hero />
       <Process />
       <WhoWeServe />
-      <StatsBar />
       <SmartTechnology />
+      <StatsBar />
       <CTASection />
       <Footer />
     </div>
