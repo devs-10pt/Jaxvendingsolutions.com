@@ -88,7 +88,7 @@ export const Process = () => {
             number={2}
             icon={<Wrench className="w-5 h-5" />}
             title="We Install"
-            description="Professional setup with zero hassle. We handle permits, installation, and stocking—all at no cost to you."
+            description="Professional setup with zero hassle. Fully Stocked and operating machine in no time."
             index={1}
           />
           <ProcessStep
