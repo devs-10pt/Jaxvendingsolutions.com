@@ -63,34 +63,30 @@ export const Hero = () => {
           </motion.div>
         </motion.div>
 
-        {/* Right: Machine visual placeholder */}
+        {/* Right: Machine visual */}
         <motion.div
           initial={{ opacity: 0, scale: 0.95 } as any}
           animate={{ opacity: 1, scale: 1 } as any}
           transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] } as any}
-          className="relative h-[500px] lg:h-[700px] rounded-3xl overflow-hidden shadow-premium-lg"
+          whileHover={{ scale: 1.05, y: -10 } as any}
+          className="relative h-[500px] lg:h-[700px] rounded-3xl overflow-hidden shadow-premium-lg group cursor-pointer"
         >
-          {/* Premium gradient placeholder */}
+          {/* Premium gradient background */}
           <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-primary/10 to-accent/5" />
 
-          {/* Glass effect overlay */}
-          <div className="absolute inset-0 glass" />
-
-          {/* Grid pattern */}
-          <div
-            className="absolute inset-0 opacity-10"
-            style={{
-              backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px)",
-              backgroundSize: "40px 40px",
-            }}
+          {/* Vending machine image */}
+          <img
+            src="/vending-machine-hero.png"
+            alt="Premium Smart Vending Machine"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
 
-          {/* Center placeholder text */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <p className="text-muted-foreground text-sm font-medium">
-              Premium Machine Visual
-            </p>
-          </div>
+          {/* Green glow effect on hover */}
+          <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/20 transition-all duration-500 pointer-events-none" />
+          <div className="absolute inset-0 shadow-[0_0_60px_rgba(0,0,0,0)] group-hover:shadow-[0_0_60px_rgba(45,106,79,0.5)] transition-all duration-500 pointer-events-none rounded-3xl" />
+
+          {/* Subtle overlay gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-background/30 via-transparent to-transparent" />
         </motion.div>
       </div>
 
