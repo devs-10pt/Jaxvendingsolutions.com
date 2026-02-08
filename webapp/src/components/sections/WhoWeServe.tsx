@@ -9,9 +9,10 @@ interface ServeCardProps {
   description: string;
   imagePosition: "left" | "right";
   index: number;
+  imageUrl?: string;
 }
 
-const ServeCard = ({ title, headline, description, imagePosition, index }: ServeCardProps) => {
+const ServeCard = ({ title, headline, description, imagePosition, index, imageUrl }: ServeCardProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -43,20 +44,35 @@ const ServeCard = ({ title, headline, description, imagePosition, index }: Serve
       transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
       className="relative h-[400px] lg:h-[500px] rounded-3xl overflow-hidden shadow-premium-lg"
     >
-      {/* Gradient placeholder */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-primary/15 to-background" />
+      {imageUrl ? (
+        <>
+          {/* Actual image */}
+          <img
+            src={imageUrl}
+            alt={title}
+            className="absolute inset-0 w-full h-full object-cover"
+          />
+          {/* Subtle overlay gradient */}
+          <div className="absolute inset-0 bg-gradient-to-t from-background/30 via-transparent to-transparent" />
+        </>
+      ) : (
+        <>
+          {/* Gradient placeholder */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-primary/15 to-background" />
 
-      {/* Glass overlay */}
-      <div className="absolute inset-0 glass" />
+          {/* Glass overlay */}
+          <div className="absolute inset-0 glass" />
 
-      {/* Subtle pattern */}
-      <div
-        className="absolute inset-0 opacity-5"
-        style={{
-          backgroundImage: "radial-gradient(circle, rgba(0, 0, 0, 0.2) 1px, transparent 1px)",
-          backgroundSize: "20px 20px",
-        }}
-      />
+          {/* Subtle pattern */}
+          <div
+            className="absolute inset-0 opacity-5"
+            style={{
+              backgroundImage: "radial-gradient(circle, rgba(0, 0, 0, 0.2) 1px, transparent 1px)",
+              backgroundSize: "20px 20px",
+            }}
+          />
+        </>
+      )}
     </motion.div>
   );
 
@@ -107,6 +123,7 @@ export const WhoWeServe = () => {
           headline="Fuel the heroes who never stop"
           description="24/7 access to nutritious snacks, fresh meals, and essentials for staff, patients, and visitors. Our smart machines ensure healthy options are always available when it matters most."
           imagePosition="left"
+          imageUrl="/healthcare-hero.png"
           index={0}
         />
 
