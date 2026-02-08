@@ -78,17 +78,26 @@ const ServeCard = ({ title, headline, description, imagePosition, index, imageUr
 
   return (
     <div ref={ref} className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-      {imagePosition === "left" ? (
-        <>
-          {image}
-          {content}
-        </>
-      ) : (
-        <>
-          {content}
-          {image}
-        </>
-      )}
+      {/* Mobile/Tablet: Always content first, then image */}
+      <div className="lg:hidden flex flex-col gap-6 sm:gap-8">
+        {content}
+        {image}
+      </div>
+
+      {/* Desktop: Alternate image position */}
+      <div className="hidden lg:contents">
+        {imagePosition === "left" ? (
+          <>
+            {image}
+            {content}
+          </>
+        ) : (
+          <>
+            {content}
+            {image}
+          </>
+        )}
+      </div>
     </div>
   );
 };
