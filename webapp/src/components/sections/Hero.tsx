@@ -35,10 +35,7 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 } as any}
             transition={{ duration: 0.8, delay: 0.4, ease: [0.22, 1, 0.36, 1] } as any}
             className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-xl"
-          >
-            Premium vending solutions for Jacksonville's finest hospitals, schools,
-            and apartment communities. Smart machines, seamless service, zero hassle.
-          </motion.p>
+          >Jax Vending Solutions provides Free services for Jacksonville's finest communities.</motion.p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 } as any}
