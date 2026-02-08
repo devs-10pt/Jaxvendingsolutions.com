@@ -151,6 +151,14 @@ export const WhoWeServe = () => {
           imageUrl="/business-office.png"
           index={3}
         />
+
+        <ServeCard
+          title="Gyms & Fitness Centers"
+          headline="Fuel your fitness journey"
+          description="Protein bars, sports drinks, and healthy snacks available 24/7. Our machines stock the nutrition your members need before, during, and after their workouts."
+          imagePosition="left"
+          index={4}
+        />
       </div>
     </section>
   );
