@@ -12,14 +12,24 @@ import { useState } from "react";
 
 const ContactUs = () => {
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
+  const [selectedMachines, setSelectedMachines] = useState<string[]>([]);
 
   const serviceOptions = ["Drink", "Snack", "Freezer", "Other"];
+  const machineOptions = ["Mini 360", "Plus 440", "Pro 542", "Max 620", "Max 620S", "Ultra 1200", "Not Sure"];
 
   const toggleService = (service: string) => {
     setSelectedServices((prev) =>
       prev.includes(service)
         ? prev.filter((s) => s !== service)
         : [...prev, service]
+    );
+  };
+
+  const toggleMachine = (machine: string) => {
+    setSelectedMachines((prev) =>
+      prev.includes(machine)
+        ? prev.filter((m) => m !== machine)
+        : [...prev, machine]
     );
   };
 
@@ -204,6 +214,29 @@ const ContactUs = () => {
                     placeholder="32210"
                     className="bg-background/50 border-border focus:border-primary transition-colors"
                   />
+                </div>
+
+                {/* Machine Interest */}
+                <div className="space-y-3">
+                  <label className="text-sm font-medium text-foreground">
+                    Machine Interest
+                  </label>
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+                    {machineOptions.map((machine) => (
+                      <button
+                        key={machine}
+                        type="button"
+                        onClick={() => toggleMachine(machine)}
+                        className={`py-2 px-4 rounded-lg font-medium transition-all duration-300 border-2 ${
+                          selectedMachines.includes(machine)
+                            ? "border-primary bg-primary/10 text-primary shadow-[0_0_15px_rgba(var(--primary-rgb),0.3)]"
+                            : "border-border bg-background/50 text-foreground hover:border-primary/50"
+                        }`}
+                      >
+                        {machine}
+                      </button>
+                    ))}
+                  </div>
                 </div>
 
                 <div className="space-y-2">
