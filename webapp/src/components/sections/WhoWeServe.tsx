@@ -148,6 +148,7 @@ export const WhoWeServe = () => {
           headline="Keep your team energized and productive"
           description="Boost workplace satisfaction with convenient access to snacks, beverages, and healthy options. Our smart vending solutions reduce downtime and keep your employees focused throughout the day."
           imagePosition="right"
+          imageUrl="/business-office.png"
           index={3}
         />
       </div>
