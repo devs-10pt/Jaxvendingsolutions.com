@@ -61,7 +61,7 @@ const ContactUs = () => {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative min-h-[40vh] sm:min-h-[50vh] flex items-center justify-center px-4 sm:px-6 py-24 sm:py-32">
+      <section className="relative min-h-[40vh] sm:min-h-[50vh] flex items-center justify-center px-4 sm:px-6 py-32 sm:py-36">
         <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
@@ -70,7 +70,7 @@ const ContactUs = () => {
             initial={{ opacity: 0, scale: 0.9 } as any}
             animate={{ opacity: 1, scale: 1 } as any}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
-            className="flex justify-center mb-6 sm:mb-8 lg:hidden"
+            className="flex justify-center mb-6 sm:mb-8 lg:hidden pt-4"
           >
             <img
               src="/logo.png"

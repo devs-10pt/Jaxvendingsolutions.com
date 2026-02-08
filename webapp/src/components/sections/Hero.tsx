@@ -9,7 +9,7 @@ export const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 py-24 sm:py-32 lg:py-0">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-4 sm:px-6 py-32 sm:py-32 lg:py-0">
       {/* Ambient background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/5" />
 
@@ -27,7 +27,7 @@ export const Hero = () => {
             initial={{ opacity: 0, scale: 0.9 } as any}
             animate={{ opacity: 1, scale: 1 } as any}
             transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
-            className="flex justify-center mb-4 sm:mb-6 sm:hidden"
+            className="flex justify-center mb-6 sm:mb-6 sm:hidden pt-8"
           >
             <img
               src="/logo.png"
