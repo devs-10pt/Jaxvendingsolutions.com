@@ -95,7 +95,7 @@ export const Process = () => {
             number={3}
             icon={<TrendingUp className="w-5 h-5" />}
             title="You Profit"
-            description="Earn revenue from day one. We manage maintenance, restocking, and customer support 24/7."
+            description="We manage maintenance, restocking, and customer support 24/7. Your location receives a Free and Modern Machine."
             index={2}
           />
         </div>
