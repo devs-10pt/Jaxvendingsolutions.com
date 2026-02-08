@@ -75,9 +75,7 @@ const Machines = () => {
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display font-semibold text-foreground mb-6">
               AI Vending Machine <span className="text-primary">Models</span>
             </h2>
-            <p className="text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Powered by advanced AI technology with 99% product identification accuracy for completely cashier-free shopping experiences.
-            </p>
+            <p className="text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">Powered By The Newest Technology.</p>
           </motion.div>
 
           {/* Machine Models Grid */}
