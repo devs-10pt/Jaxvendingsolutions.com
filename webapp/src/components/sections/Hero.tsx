@@ -32,7 +32,7 @@ export const Hero = () => {
             <img
               src="/logo.png"
               alt="Jax Vending Solutions Logo"
-              className="h-32 w-auto drop-shadow-2xl"
+              className="h-[170px] w-auto drop-shadow-2xl"
             />
           </motion.div>
 
