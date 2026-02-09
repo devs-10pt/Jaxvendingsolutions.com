@@ -12,3 +12,13 @@ Allow: /
 
 User-agent: *
 Allow: /
+
+# Disallow admin or private areas (if any in the future)
+Disallow: /admin/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://jaxvendingsolutions.com/sitemap.xml
+
+# Crawl-delay (optional, helps prevent overwhelming the server)
+Crawl-delay: 1

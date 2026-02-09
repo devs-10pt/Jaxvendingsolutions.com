@@ -7,6 +7,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CreditCard, Wifi, Package, Zap, ArrowRight, Cpu, ShoppingCart, Thermometer } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import { SEO } from "@/components/SEO";
 
 const Machines = () => {
   const navigate = useNavigate();
@@ -34,7 +35,26 @@ const Machines = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO
+        title="AI Vending Machine Models - Smart Vending Solutions"
+        description="Explore our premium AI-powered vending machines for Jacksonville businesses. From compact Mini 360 to enterprise Ultra 1200 models. Smart inventory, cashless payments, and 24/7 cloud monitoring for hospitals, schools, and offices."
+        keywords={[
+          "AI vending machines Jacksonville",
+          "smart vending machines Florida",
+          "vending machine models",
+          "cashless vending solutions",
+          "cloud connected vending machines",
+          "hospital vending equipment",
+          "school vending machines",
+          "office break room vending",
+          "vending machines Duval County",
+          "commercial vending machines",
+          "touchless payment vending",
+        ]}
+        canonical="/machines"
+      />
+      <div className="min-h-screen">
       <Navigation />
 
       {/* AI Vending Machines Section */}
@@ -417,7 +437,8 @@ const Machines = () => {
       </section>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 

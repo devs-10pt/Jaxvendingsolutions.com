@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
+import { SEO } from "@/components/SEO";
 
 const ContactUs = () => {
   const [selectedServices, setSelectedServices] = useState<string[]>([]);
@@ -57,7 +58,24 @@ const ContactUs = () => {
   ];
 
   return (
-    <div className="min-h-screen">
+    <>
+      <SEO
+        title="Contact Us - Get a Free Quote for Vending Services"
+        description="Contact Jax Vending Solutions for premium vending machine services in Jacksonville, Duval, St. Johns, and Nassau County. Serving hospitals, schools, apartments, and offices across all ZIP codes. Call (555) 123-4567 or request a free quote today."
+        keywords={[
+          "contact vending services Jacksonville",
+          "vending machine quote Florida",
+          "Jacksonville vending company contact",
+          "vending services Duval County",
+          "St. Johns County vending contact",
+          "Nassau County vending services",
+          "vending machine installation quote",
+          "Jacksonville vending phone number",
+          "vending services near me",
+        ]}
+        canonical="/contact"
+      />
+      <div className="min-h-screen">
       <Navigation />
 
       {/* Hero Section */}
@@ -278,7 +296,8 @@ const ContactUs = () => {
       </section>
 
       <Footer />
-    </div>
+      </div>
+    </>
   );
 };
 
