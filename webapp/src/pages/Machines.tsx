@@ -417,6 +417,19 @@ const Machines = () => {
             </motion.div>
           </div>
 
+          {/* More Partners Section Header */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 } as any}
+            whileInView={{ opacity: 1, y: 0 } as any}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
+            viewport={{ once: true } as any}
+            className="text-center mb-12 sm:mb-16 lg:mb-20"
+          >
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-semibold text-foreground mb-4 sm:mb-6 px-2">
+              More Jax Vending Solution <span className="text-primary">Partners</span>
+            </h2>
+          </motion.div>
+
           {/* Micro Mart Logo Section */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 } as any}
