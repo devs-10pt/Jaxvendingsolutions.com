@@ -150,6 +150,28 @@ const Machines = () => {
             </a>
           </motion.div>
 
+          {/* Micro Mart Logo */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 } as any}
+            whileInView={{ opacity: 1, scale: 1 } as any}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
+            viewport={{ once: true } as any}
+            className="flex justify-center mb-12 sm:mb-16 lg:mb-20"
+          >
+            <a
+              href="https://www.micromart.com/?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group cursor-pointer"
+            >
+              <img
+                src="/micro-mart-logo.png"
+                alt="Micro Mart"
+                className="h-20 sm:h-24 md:h-28 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+              />
+            </a>
+          </motion.div>
+
           {/* Machine Models Grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {/* Mini 360 */}
