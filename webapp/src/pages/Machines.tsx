@@ -126,9 +126,7 @@ const Machines = () => {
                 />
               </div>
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-2">Intelligent Operations</h3>
-              <p className="text-sm sm:text-base text-muted-foreground text-center leading-relaxed">
-                Real-time monitoring and smart inventory management ensure your machines stay stocked with the right products at the right time, maximizing profitability.
-              </p>
+              <p className="text-sm sm:text-base text-muted-foreground text-center leading-relaxed">Jax Vending Solution's provide seamless payment processing for high traffic locations.</p>
             </motion.div>
           </div>
 
