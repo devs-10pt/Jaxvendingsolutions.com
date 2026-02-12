@@ -462,7 +462,7 @@ const Machines = () => {
               viewport={{ once: true } as any}
             >
               <a
-                href="#"
+                href="https://amsvendors.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group cursor-pointer"
