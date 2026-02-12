@@ -483,7 +483,7 @@ const Machines = () => {
               viewport={{ once: true } as any}
             >
               <a
-                href="#"
+                href="https://www.craneconvenience.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group cursor-pointer"
