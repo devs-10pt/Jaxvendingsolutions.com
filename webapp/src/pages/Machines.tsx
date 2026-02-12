@@ -447,13 +447,13 @@ const Machines = () => {
               <img
                 src="/micro-mart-logo.png"
                 alt="Micro Mart"
-                className="h-34 sm:h-40 md:h-48 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+                className="h-40 sm:h-48 md:h-56 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
               />
             </a>
           </motion.div>
 
           {/* Additional Partner Logos */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-8 sm:gap-12 mb-12 sm:mb-16 lg:mb-20">
+          <div className="flex flex-col justify-center items-center gap-8 sm:gap-12 mb-12 sm:mb-16 lg:mb-20">
             {/* Partner Logo 1 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 } as any}
@@ -470,7 +470,7 @@ const Machines = () => {
                 <img
                   src="/partner-logo-1.png"
                   alt="Partner Logo 1"
-                  className="h-20 sm:h-24 md:h-28 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+                  className="h-24 sm:h-28 md:h-32 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
                 />
               </a>
             </motion.div>
@@ -491,7 +491,7 @@ const Machines = () => {
                 <img
                   src="/partner-logo-2.png"
                   alt="Partner Logo 2"
-                  className="h-20 sm:h-24 md:h-28 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+                  className="h-24 sm:h-28 md:h-32 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
                 />
               </a>
             </motion.div>
