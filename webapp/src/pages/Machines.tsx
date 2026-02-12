@@ -87,6 +87,28 @@ const Machines = () => {
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">Powered By The Newest Technology.</p>
           </motion.div>
 
+          {/* HAHA Vending Logo */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 } as any}
+            whileInView={{ opacity: 1, scale: 1 } as any}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
+            viewport={{ once: true } as any}
+            className="flex justify-center mb-12 sm:mb-16 lg:mb-20"
+          >
+            <a
+              href="https://hahavending.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group cursor-pointer"
+            >
+              <img
+                src="/haha-vending-logo.png"
+                alt="HAHA Vending"
+                className="h-17 sm:h-20 md:h-24 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+              />
+            </a>
+          </motion.div>
+
           {/* Traffic Features Section */}
           <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20">
             {/* Image 1 */}
@@ -395,50 +417,27 @@ const Machines = () => {
             </motion.div>
           </div>
 
-          {/* Partner Logos Section */}
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-12 sm:gap-16 mb-12 sm:mb-16 lg:mb-20">
-            {/* HAHA Vending Logo */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 } as any}
-              whileInView={{ opacity: 1, scale: 1 } as any}
-              transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
-              viewport={{ once: true } as any}
+          {/* Micro Mart Logo Section */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 } as any}
+            whileInView={{ opacity: 1, scale: 1 } as any}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
+            viewport={{ once: true } as any}
+            className="flex justify-center mb-12 sm:mb-16 lg:mb-20"
+          >
+            <a
+              href="https://www.micromart.com/?utm_source=chatgpt.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group cursor-pointer"
             >
-              <a
-                href="https://hahavending.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group cursor-pointer"
-              >
-                <img
-                  src="/haha-vending-logo.png"
-                  alt="HAHA Vending"
-                  className="h-20 sm:h-24 md:h-28 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
-                />
-              </a>
-            </motion.div>
-
-            {/* Micro Mart Logo */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 } as any}
-              whileInView={{ opacity: 1, scale: 1 } as any}
-              transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
-              viewport={{ once: true } as any}
-            >
-              <a
-                href="https://www.micromart.com/?utm_source=chatgpt.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group cursor-pointer"
-              >
-                <img
-                  src="/micro-mart-logo.png"
-                  alt="Micro Mart"
-                  className="h-26 sm:h-32 md:h-36 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
-                />
-              </a>
-            </motion.div>
-          </div>
+              <img
+                src="/micro-mart-logo.png"
+                alt="Micro Mart"
+                className="h-34 sm:h-40 md:h-48 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+              />
+            </a>
+          </motion.div>
 
           {/* Technology Features */}
           <motion.div
