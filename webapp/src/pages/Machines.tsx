@@ -105,9 +105,7 @@ const Machines = () => {
                 />
               </div>
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-2">Premium Vending Experience</h3>
-              <p className="text-sm sm:text-base text-muted-foreground text-center leading-relaxed">
-                Our advanced vending machines deliver exceptional customer experiences with cutting-edge technology and seamless payment processing for high-traffic locations.
-              </p>
+              <p className="text-sm sm:text-base text-muted-foreground text-center leading-relaxed">Together we can provide the right machine for your space and needs.</p>
             </motion.div>
 
             {/* Image 2 */}
