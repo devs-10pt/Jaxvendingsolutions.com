@@ -16,7 +16,7 @@ const ContactUs = () => {
   const [selectedMachines, setSelectedMachines] = useState<string[]>([]);
 
   const serviceOptions = ["Drink", "Snack", "Freezer", "Other"];
-  const machineOptions = ["Mini 360", "Plus 440", "Pro 542", "Max 620", "Max 620S", "Ultra 1200", "Not Sure"];
+  const trafficOptions = ["1-10", "10-50", "100-500", "500+", "2000+", "More"];
 
   const toggleService = (service: string) => {
     setSelectedServices((prev) =>
@@ -26,11 +26,11 @@ const ContactUs = () => {
     );
   };
 
-  const toggleMachine = (machine: string) => {
+  const toggleTraffic = (traffic: string) => {
     setSelectedMachines((prev) =>
-      prev.includes(machine)
-        ? prev.filter((m) => m !== machine)
-        : [...prev, machine]
+      prev.includes(traffic)
+        ? prev.filter((t) => t !== traffic)
+        : [...prev, traffic]
     );
   };
 
@@ -248,24 +248,24 @@ const ContactUs = () => {
                   />
                 </div>
 
-                {/* Machine Interest */}
+                {/* Daily Location Traffic */}
                 <div className="space-y-3">
                   <label className="text-sm font-medium text-foreground">
-                    Machine Interest
+                    Daily Location Traffic
                   </label>
-                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3">
-                    {machineOptions.map((machine) => (
+                  <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-3">
+                    {trafficOptions.map((traffic) => (
                       <button
-                        key={machine}
+                        key={traffic}
                         type="button"
-                        onClick={() => toggleMachine(machine)}
+                        onClick={() => toggleTraffic(traffic)}
                         className={`py-3 px-2 sm:px-4 rounded-lg font-medium transition-all duration-300 border-2 text-xs sm:text-sm min-h-[48px] ${
-                          selectedMachines.includes(machine)
+                          selectedMachines.includes(traffic)
                             ? "border-primary bg-primary/10 text-primary shadow-[0_0_15px_rgba(var(--primary-rgb),0.3)]"
                             : "border-border bg-background/50 text-foreground hover:border-primary/50"
                         }`}
                       >
-                        {machine}
+                        {traffic}
                       </button>
                     ))}
                   </div>
