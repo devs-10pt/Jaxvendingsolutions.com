@@ -87,6 +87,51 @@ const Machines = () => {
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">Powered By The Newest Technology.</p>
           </motion.div>
 
+          {/* Traffic Features Section */}
+          <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20">
+            {/* Image 1 */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 } as any}
+              whileInView={{ opacity: 1, y: 0 } as any}
+              transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
+              viewport={{ once: true } as any}
+              className="flex flex-col items-center"
+            >
+              <div className="relative w-full group rounded-2xl overflow-hidden mb-4">
+                <img
+                  src="/traffic-image-1.png"
+                  alt="High Traffic Vending Solution"
+                  className="w-full h-80 sm:h-96 object-cover rounded-2xl group-hover:shadow-[0_0_50px_rgba(var(--primary-rgb),0.5)] transition-all duration-500"
+                />
+              </div>
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-2">Premium Vending Experience</h3>
+              <p className="text-sm sm:text-base text-muted-foreground text-center leading-relaxed">
+                Our advanced vending machines deliver exceptional customer experiences with cutting-edge technology and seamless payment processing for high-traffic locations.
+              </p>
+            </motion.div>
+
+            {/* Image 2 */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 } as any}
+              whileInView={{ opacity: 1, y: 0 } as any}
+              transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
+              viewport={{ once: true } as any}
+              className="flex flex-col items-center"
+            >
+              <div className="relative w-full group rounded-2xl overflow-hidden mb-4">
+                <img
+                  src="/traffic-image-2.png"
+                  alt="Smart Inventory Management"
+                  className="w-full h-80 sm:h-96 object-cover rounded-2xl group-hover:shadow-[0_0_50px_rgba(var(--primary-rgb),0.5)] transition-all duration-500"
+                />
+              </div>
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-2">Intelligent Operations</h3>
+              <p className="text-sm sm:text-base text-muted-foreground text-center leading-relaxed">
+                Real-time monitoring and smart inventory management ensure your machines stay stocked with the right products at the right time, maximizing profitability.
+              </p>
+            </motion.div>
+          </div>
+
           {/* Machine Models Grid */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12 sm:mb-16">
             {/* Mini 360 */}
