@@ -87,6 +87,28 @@ const Machines = () => {
             <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">Powered By The Newest Technology.</p>
           </motion.div>
 
+          {/* HAHA Vending Logo */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 } as any}
+            whileInView={{ opacity: 1, scale: 1 } as any}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
+            viewport={{ once: true } as any}
+            className="flex justify-center mb-12 sm:mb-16 lg:mb-20"
+          >
+            <a
+              href="https://hahavending.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group cursor-pointer"
+            >
+              <img
+                src="/haha-vending-logo.png"
+                alt="HAHA Vending"
+                className="h-20 sm:h-24 md:h-28 w-auto hover:scale-110 transition-transform duration-300 drop-shadow-lg group-hover:drop-shadow-[0_0_20px_rgba(var(--primary-rgb),0.4)]"
+              />
+            </a>
+          </motion.div>
+
           {/* Traffic Features Section */}
           <div className="grid sm:grid-cols-2 gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20">
             {/* Image 1 */}
