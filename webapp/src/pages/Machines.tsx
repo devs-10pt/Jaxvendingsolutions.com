@@ -453,7 +453,7 @@ const Machines = () => {
           </motion.div>
 
           {/* Additional Partner Logos */}
-          <div className="flex flex-col justify-center items-center gap-8 sm:gap-12 mb-12 sm:mb-16 lg:mb-20">
+          <div className="flex flex-col justify-center items-center gap-6 sm:gap-8 mb-12 sm:mb-16 lg:mb-20">
             {/* Partner Logo 1 */}
             <motion.div
               initial={{ opacity: 0, scale: 0.9 } as any}
