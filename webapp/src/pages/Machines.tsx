@@ -428,7 +428,7 @@ const Machines = () => {
             whileInView={{ opacity: 1, scale: 1 } as any}
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] } as any}
             viewport={{ once: true } as any}
-            className="flex justify-center mb-12 sm:mb-16 lg:mb-20"
+            className="flex justify-center mb-6 sm:mb-8 lg:mb-10"
           >
             <a
               href="https://www.micromart.com/?utm_source=chatgpt.com"
