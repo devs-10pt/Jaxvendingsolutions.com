@@ -295,6 +295,30 @@ const ContactUs = () => {
         </div>
       </section>
 
+      {/* Trustpilot Reviews Widget */}
+      <section className="relative py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 30 } as any}
+            whileInView={{ opacity: 1, y: 0 } as any}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
+            viewport={{ once: true } as any}
+            className="flex justify-center items-center"
+          >
+            <div className="w-full flex justify-center">
+              {/* TrustBox script */}
+              <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+              {/* Trustpilot Widget */}
+              <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="YOUR_BUSINESS_ID" data-style-height="130px" data-style-width="100%" data-theme="light">
+                <a href="https://www.trustpilot.com/review/jaxvendingsolutions.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline text-sm sm:text-base">
+                  Trustpilot
+                </a>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       <Footer />
       </div>
     </>
