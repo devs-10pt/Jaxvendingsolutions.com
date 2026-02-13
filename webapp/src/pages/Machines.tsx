@@ -68,7 +68,7 @@ const Machines = () => {
             className="flex justify-center mb-8 sm:mb-12 lg:hidden pt-4"
           >
             <img
-              src="/logo.png"
+              src="/fulllogo-transparent.png"
               alt="Jax Vending Solutions Logo"
               className="h-[170px] w-auto drop-shadow-2xl"
             />

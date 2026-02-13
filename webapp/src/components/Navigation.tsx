@@ -29,7 +29,7 @@ export const Navigation = () => {
           {/* Logo */}
           <button onClick={scrollToTop} className="focus:outline-none min-h-[44px] min-w-[44px] flex items-center justify-center">
             <motion.img
-              src="/logo.png"
+              src="/fulllogo-transparent.png"
               alt="Jax Vending Solutions Logo"
               whileHover={{ scale: 1.1, rotate: 2 } as any}
               whileTap={{ scale: 0.95 } as any}
@@ -82,7 +82,7 @@ export const Navigation = () => {
         >
           <button onClick={scrollToTop} className="focus:outline-none min-h-[44px] min-w-[44px] flex items-center justify-center">
             <motion.img
-              src="/logo.png"
+              src="/fulllogo-transparent.png"
               alt="Jax Vending Solutions Logo"
               whileHover={{ scale: 1.1, rotate: 2 } as any}
               whileTap={{ scale: 0.95 } as any}

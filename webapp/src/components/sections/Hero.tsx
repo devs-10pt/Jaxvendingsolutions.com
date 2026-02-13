@@ -30,7 +30,7 @@ export const Hero = () => {
             className="flex justify-center mb-6 sm:mb-6 sm:hidden pt-8"
           >
             <img
-              src="/logo.png"
+              src="/fulllogo-transparent.png"
               alt="Jax Vending Solutions Logo"
               className="h-[170px] w-auto drop-shadow-2xl"
             />
