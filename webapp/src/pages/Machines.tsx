@@ -262,9 +262,7 @@ const Machines = () => {
                     <h3 className="text-xl sm:text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
                       Pro 542
                     </h3>
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                      Professional-grade AI vending with expanded capacity. Ideal for high-traffic areas and campuses.
-                    </p>
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">Professional grade AI vending with expanded capacity. Ideal for high traffic areas and campuses.</p>
                   </div>
                   <div className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
