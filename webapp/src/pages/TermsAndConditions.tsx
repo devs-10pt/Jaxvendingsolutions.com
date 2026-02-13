@@ -79,18 +79,7 @@ const TermsAndConditions = () => {
             {/* Section 3 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                3. Term of Agreement
-              </h3>
-              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
-                <li><strong>Initial Term:</strong> Five (5) years</li>
-                <li><strong>Automatic Renewal:</strong> One (1) year successive terms unless terminated with 60 days written notice</li>
-              </ul>
-            </div>
-
-            {/* Section 4 */}
-            <div className="space-y-3">
-              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                4. Minimum Sales Requirement
+                3. Minimum Sales Requirement
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Each machine must generate a minimum threshold per month in gross revenue.
@@ -105,24 +94,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 5 */}
+            {/* Section 4 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                5. Revenue Sharing (If Applicable)
-              </h3>
-              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
-                <li><strong>Commission:</strong> Percentage of gross sales (excluding tax) as agreed</li>
-                <li><strong>Payment:</strong> Monthly, within 15 days of month-end</li>
-              </ul>
-              <p className="text-base text-foreground leading-relaxed mt-3">
-                If not specified, machines are placed as a complimentary amenity.
-              </p>
-            </div>
-
-            {/* Section 6 */}
-            <div className="space-y-3">
-              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                6. Maintenance & Repairs
+                4. Maintenance & Repairs
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company will:
@@ -137,10 +112,10 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 7 */}
+            {/* Section 5 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                7. Micro-Market Theft & Shrinkage
+                5. Micro-Market Theft & Shrinkage
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 If shrinkage exceeds 10% of gross sales within any 30-day period, Company may:
@@ -162,10 +137,10 @@ const TermsAndConditions = () => {
               CASHLESS PAYMENT & DATA COMPLIANCE
             </h2>
 
-            {/* Section 8 */}
+            {/* Section 6 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                8. Cashless Payment Systems
+                6. Cashless Payment Systems
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Machines may include:
@@ -179,10 +154,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 9 */}
+            {/* Section 7 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                9. PCI Compliance
+                7. PCI Compliance
               </h3>
               <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
                 <li>All payment processing is conducted via PCI-DSS compliant third-party processors</li>
@@ -190,10 +165,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 10 */}
+            {/* Section 8 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                10. Operational Data Collection
+                8. Operational Data Collection
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Machines may collect:
@@ -209,10 +184,10 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 11 */}
+            {/* Section 9 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                11. Limitation of Liability (Payments)
+                9. Limitation of Liability (Payments)
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company is not liable for:
@@ -232,10 +207,10 @@ const TermsAndConditions = () => {
               GOVERNMENT, SCHOOL & HOSPITAL PROVISIONS
             </h2>
 
-            {/* Section 12 */}
+            {/* Section 10 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                12. Regulatory Compliance
+                10. Regulatory Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company complies with:
@@ -247,40 +222,40 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 13 */}
+            {/* Section 11 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                13. Background & Security Requirements
+                11. Background & Security Requirements
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Company personnel will comply with required institutional screening and security policies when applicable.
               </p>
             </div>
 
-            {/* Section 14 */}
+            {/* Section 12 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                14. Nutrition & Institutional Restrictions
+                12. Nutrition & Institutional Restrictions
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Product selection may be modified to comply with institutional nutrition or wellness policies.
               </p>
             </div>
 
-            {/* Section 15 */}
+            {/* Section 13 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                15. Budget Appropriation (Public Entities)
+                13. Budget Appropriation (Public Entities)
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Continuation of this Agreement may be subject to annual budget approval where required by law.
               </p>
             </div>
 
-            {/* Section 16 */}
+            {/* Section 14 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                16. Public Records Compliance (Florida)
+                14. Public Records Compliance (Florida)
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 If contracting with a public agency, certain records may be subject to disclosure under Chapter 119, Florida Statutes.
@@ -290,10 +265,10 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 17 */}
+            {/* Section 15 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                17. Procurement Documentation
+                15. Procurement Documentation
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company may provide:
@@ -314,10 +289,10 @@ const TermsAndConditions = () => {
               PROPERTY MANAGEMENT & APARTMENT COMPLEX PROVISIONS
             </h2>
 
-            {/* Section 18 */}
+            {/* Section 16 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                18. Common Area Compliance
+                16. Common Area Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Machines must:
@@ -329,30 +304,30 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 19 */}
+            {/* Section 17 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                19. Tenant Liability
+                17. Tenant Liability
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Company is not liable for misuse or intentional damage caused by tenants or guests.
               </p>
             </div>
 
-            {/* Section 20 */}
+            {/* Section 18 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                20. Relocation Within Property
+                18. Relocation Within Property
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Relocation may occur with 14 days written notice, provided accessibility and electrical requirements remain satisfied.
               </p>
             </div>
 
-            {/* Section 21 */}
+            {/* Section 19 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                21. Exclusivity
+                19. Exclusivity
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Host Location agrees not to allow competing vending operators during the term.
@@ -366,10 +341,10 @@ const TermsAndConditions = () => {
               FLORIDA SCHOOL NUTRITION COMPLIANCE
             </h2>
 
-            {/* Section 22 */}
+            {/* Section 20 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                22. Smart Snacks Compliance
+                20. Smart Snacks Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 For K-12 schools participating in federal programs, all products sold during the defined school day shall comply with:
@@ -381,20 +356,20 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 23 */}
+            {/* Section 21 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                23. Definition of School Day
+                21. Definition of School Day
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Midnight before to 30 minutes after the official end of the school day.
               </p>
             </div>
 
-            {/* Section 24 */}
+            {/* Section 22 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                24. Nutritional Standards
+                22. Nutritional Standards
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Products must meet federal limits for:
@@ -411,20 +386,20 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 25 */}
+            {/* Section 23 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                25. Documentation
+                23. Documentation
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Company may provide Smart Snack compliance documentation upon request.
               </p>
             </div>
 
-            {/* Section 26 */}
+            {/* Section 24 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                26. Wellness Policy Alignment
+                24. Wellness Policy Alignment
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Product offerings may be adjusted to comply with district-specific wellness policies.
@@ -438,10 +413,10 @@ const TermsAndConditions = () => {
               ADA & ACCESSIBILITY COMPLIANCE
             </h2>
 
-            {/* Section 27 */}
+            {/* Section 25 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                27. ADA Compliance
+                25. ADA Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company will make commercially reasonable efforts to comply with:
@@ -466,10 +441,10 @@ const TermsAndConditions = () => {
               FOOD SAFETY & HEALTH REGULATIONS
             </h2>
 
-            {/* Section 28 */}
+            {/* Section 26 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                28. HACCP Food Safety Program
+                26. HACCP Food Safety Program
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company implements HACCP-based protocols including:
@@ -482,10 +457,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 29 */}
+            {/* Section 27 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                29. Florida Department of Health Compliance
+                27. Florida Department of Health Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company complies with:
@@ -507,20 +482,20 @@ const TermsAndConditions = () => {
               ADDITIONAL LEGAL PROTECTIONS
             </h2>
 
-            {/* Section 30 */}
+            {/* Section 28 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                30. Personal Guarantee (If Applicable)
+                28. Personal Guarantee (If Applicable)
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Privately held Host Locations may require a personal guarantee of performance.
               </p>
             </div>
 
-            {/* Section 31 */}
+            {/* Section 29 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                31. Liquidated Damages
+                29. Liquidated Damages
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 If Host breaches exclusivity or removes equipment prematurely without cause:
@@ -534,10 +509,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 32 */}
+            {/* Section 30 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                32. Non-Solicitation / Non-Circumvention
+                30. Non-Solicitation / Non-Circumvention
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Host Location agrees not to:
@@ -552,40 +527,40 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 33 */}
+            {/* Section 31 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                33. Insurance
+                31. Insurance
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Company maintains Commercial General Liability insurance. Certificates available upon request.
               </p>
             </div>
 
-            {/* Section 34 */}
+            {/* Section 32 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                34. Attorney's Fees
+                32. Attorney's Fees
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Prevailing party in any dispute shall be entitled to reasonable attorney's fees and costs.
               </p>
             </div>
 
-            {/* Section 35 */}
+            {/* Section 33 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                35. Governing Law
+                33. Governing Law
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 This Agreement shall be governed by the laws of the State of Florida. Venue shall lie exclusively in Duval County, Florida.
               </p>
             </div>
 
-            {/* Section 36 */}
+            {/* Section 34 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                36. Entire Agreement
+                34. Entire Agreement
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 This document constitutes the entire agreement between the parties and supersedes prior negotiations.
@@ -602,10 +577,10 @@ const TermsAndConditions = () => {
               Automatically applies when contracting with Duval County Public Schools or similar Florida school districts.
             </p>
 
-            {/* Section 37 */}
+            {/* Section 35 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                37. RFP / ITB Participation
+                35. RFP / ITB Participation
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company affirms its readiness to participate in:
@@ -629,10 +604,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 38 */}
+            {/* Section 36 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                38. School Board Procurement Standards
+                36. School Board Procurement Standards
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company agrees to comply with:
@@ -645,10 +620,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 39 */}
+            {/* Section 37 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                39. Revenue Remittance to Food Service Department
+                37. Revenue Remittance to Food Service Department
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 If required by district policy:
@@ -660,10 +635,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 40 */}
+            {/* Section 38 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                40. On-Campus Operational Restrictions
+                38. On-Campus Operational Restrictions
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company personnel shall:
@@ -676,10 +651,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 41 */}
+            {/* Section 39 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                41. Student Data Protection
+                39. Student Data Protection
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Company does not collect student personally identifiable information (PII).
@@ -699,10 +674,10 @@ const TermsAndConditions = () => {
               Automatically applies when Host Location is a U.S. military installation or federal property.
             </p>
 
-            {/* Section 42 */}
+            {/* Section 40 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                42. Federal Regulatory Compliance
+                40. Federal Regulatory Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company agrees to comply with applicable federal regulations, including:
@@ -714,10 +689,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 43 */}
+            {/* Section 41 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                43. Security & Background Screening
+                41. Security & Background Screening
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company personnel may comply with:
@@ -733,10 +708,10 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 44 */}
+            {/* Section 42 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                44. Exchange / Commissary Coordination
+                42. Exchange / Commissary Coordination
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Where vending overlaps with military exchange services (AAFES/NEX/MCX), Company agrees to:
@@ -748,10 +723,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 45 */}
+            {/* Section 43 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                45. Anti-Terrorism & Force Protection Compliance
+                43. Anti-Terrorism & Force Protection Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company personnel shall comply with:
@@ -766,10 +741,10 @@ const TermsAndConditions = () => {
               </p>
             </div>
 
-            {/* Section 46 */}
+            {/* Section 44 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                46. Federal Non-Discrimination & Compliance
+                44. Federal Non-Discrimination & Compliance
               </h3>
               <p className="text-base text-foreground leading-relaxed mb-3">
                 Company affirms compliance with:
@@ -782,10 +757,10 @@ const TermsAndConditions = () => {
               </ul>
             </div>
 
-            {/* Section 47 */}
+            {/* Section 45 */}
             <div className="space-y-3">
               <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
-                47. Federal Indemnification Limitation
+                45. Federal Indemnification Limitation
               </h3>
               <p className="text-base text-foreground leading-relaxed">
                 Where contracting with federal entities, indemnification obligations shall apply only to the extent permitted by federal law.
@@ -799,10 +774,10 @@ const TermsAndConditions = () => {
               INTEGRATION CLAUSE
             </h2>
             <p className="text-base text-foreground leading-relaxed">
-              Sections 37–47 are hereby incorporated into and made part of the Master Terms and Conditions of Jax Vending Solutions, LLC.
+              Sections 35–45 are hereby incorporated into and made part of the Master Terms and Conditions of Jax Vending Solutions, LLC.
             </p>
             <p className="text-base text-foreground leading-relaxed font-semibold">
-              All prior sections (1–36) remain in full force and effect.
+              All prior sections (1–34) remain in full force and effect.
             </p>
           </section>
 
