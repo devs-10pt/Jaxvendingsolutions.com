@@ -516,9 +516,7 @@ const Machines = () => {
                     <Package className="w-5 h-5 sm:w-6 sm:h-6 text-primary flex-shrink-0" />
                     <span>Smart Inventory Management</span>
                   </h4>
-                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                    Real-time stock tracking with predictive analytics ensures popular items never run out and reduces waste.
-                  </p>
+                  <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">Real time stock tracking with predictive analytics ensures popular items never run out and reduces waste.</p>
                 </div>
                 <div>
                   <h4 className="text-lg sm:text-xl font-semibold text-foreground mb-2 sm:mb-3 flex items-center gap-2">
