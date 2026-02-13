@@ -593,6 +593,219 @@ const TermsAndConditions = () => {
             </div>
           </section>
 
+          {/* DUVAL COUNTY PUBLIC SCHOOLS COMPLIANCE ADDENDUM */}
+          <section className="space-y-6">
+            <h2 className="text-3xl sm:text-4xl font-display font-semibold text-primary border-b-2 border-primary/30 pb-3">
+              DUVAL COUNTY PUBLIC SCHOOLS (DCPS) RFP COMPLIANCE ADDENDUM
+            </h2>
+            <p className="text-sm sm:text-base text-muted-foreground italic">
+              Automatically applies when contracting with Duval County Public Schools or similar Florida school districts.
+            </p>
+
+            {/* Section 37 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                37. RFP / ITB Participation
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company affirms its readiness to participate in:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Requests for Proposal (RFP)</li>
+                <li>Invitations to Bid (ITB)</li>
+                <li>Request for Qualifications (RFQ)</li>
+              </ul>
+              <p className="text-base text-foreground leading-relaxed mt-3 mb-3">
+                Company may provide:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Smart Snack compliance documentation</li>
+                <li>Detailed commission structures</li>
+                <li>Operational capacity statements</li>
+                <li>References</li>
+                <li>Product lists with nutritional breakdown</li>
+                <li>Insurance certificates</li>
+                <li>Proof of licensing</li>
+              </ul>
+            </div>
+
+            {/* Section 38 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                38. School Board Procurement Standards
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company agrees to comply with:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Florida Statutes governing public procurement</li>
+                <li>Duval County Public Schools procurement policies</li>
+                <li>Non-collusion requirements</li>
+                <li>Anti-lobbying certifications (if required)</li>
+              </ul>
+            </div>
+
+            {/* Section 39 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                39. Revenue Remittance to Food Service Department
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                If required by district policy:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Commission payments may be directed to the School Food Service Department</li>
+                <li>Payment cycles may follow district accounting procedures</li>
+                <li>Company shall provide monthly sales summaries</li>
+              </ul>
+            </div>
+
+            {/* Section 40 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                40. On-Campus Operational Restrictions
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company personnel shall:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Check in with designated school administration</li>
+                <li>Follow district visitor protocols</li>
+                <li>Wear proper identification when required</li>
+                <li>Perform servicing outside instructional time when feasible</li>
+              </ul>
+            </div>
+
+            {/* Section 41 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                41. Student Data Protection
+              </h3>
+              <p className="text-base text-foreground leading-relaxed">
+                Company does not collect student personally identifiable information (PII).
+              </p>
+              <p className="text-base text-foreground leading-relaxed">
+                If any digital payment system interacts with school networks, Company shall comply with applicable student data privacy laws including FERPA where applicable.
+              </p>
+            </div>
+          </section>
+
+          {/* MILITARY BASE & FEDERAL INSTALLATION COMPLIANCE ADDENDUM */}
+          <section className="space-y-6">
+            <h2 className="text-3xl sm:text-4xl font-display font-semibold text-primary border-b-2 border-primary/30 pb-3">
+              MILITARY BASE & FEDERAL INSTALLATION COMPLIANCE ADDENDUM
+            </h2>
+            <p className="text-sm sm:text-base text-muted-foreground italic">
+              Automatically applies when Host Location is a U.S. military installation or federal property.
+            </p>
+
+            {/* Section 42 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                42. Federal Regulatory Compliance
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company agrees to comply with applicable federal regulations, including:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Department of Defense installation policies</li>
+                <li>Federal Acquisition Regulations (FAR) where applicable</li>
+                <li>Base-specific vending or concession guidelines</li>
+              </ul>
+            </div>
+
+            {/* Section 43 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                43. Security & Background Screening
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company personnel may comply with:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Base access credentialing</li>
+                <li>Background checks</li>
+                <li>Security clearance requirements (if applicable)</li>
+                <li>Escort requirements</li>
+              </ul>
+              <p className="text-base text-foreground leading-relaxed mt-3">
+                Failure to obtain required access credentials shall not constitute breach but may delay servicing.
+              </p>
+            </div>
+
+            {/* Section 44 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                44. Exchange / Commissary Coordination
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Where vending overlaps with military exchange services (AAFES/NEX/MCX), Company agrees to:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Coordinate placement approval</li>
+                <li>Obtain required concession authorization</li>
+                <li>Adjust commission structure as required by base command</li>
+              </ul>
+            </div>
+
+            {/* Section 45 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                45. Anti-Terrorism & Force Protection Compliance
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company personnel shall comply with:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Base force protection conditions (FPCON levels)</li>
+                <li>Vehicle inspection procedures</li>
+                <li>Restricted area protocols</li>
+              </ul>
+              <p className="text-base text-foreground leading-relaxed mt-3">
+                Company shall not be liable for service delays caused by base lockdowns or security restrictions.
+              </p>
+            </div>
+
+            {/* Section 46 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                46. Federal Non-Discrimination & Compliance
+              </h3>
+              <p className="text-base text-foreground leading-relaxed mb-3">
+                Company affirms compliance with:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-base text-foreground pl-4">
+                <li>Equal Opportunity laws</li>
+                <li>Federal non-discrimination statutes</li>
+                <li>E-Verify requirements</li>
+                <li>Drug-Free Workplace standards</li>
+              </ul>
+            </div>
+
+            {/* Section 47 */}
+            <div className="space-y-3">
+              <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground">
+                47. Federal Indemnification Limitation
+              </h3>
+              <p className="text-base text-foreground leading-relaxed">
+                Where contracting with federal entities, indemnification obligations shall apply only to the extent permitted by federal law.
+              </p>
+            </div>
+          </section>
+
+          {/* INTEGRATION CLAUSE */}
+          <section className="space-y-4 bg-primary/5 p-6 sm:p-8 rounded-lg border border-primary/20">
+            <h2 className="text-2xl sm:text-3xl font-display font-semibold text-primary">
+              INTEGRATION CLAUSE
+            </h2>
+            <p className="text-base text-foreground leading-relaxed">
+              Sections 37–47 are hereby incorporated into and made part of the Master Terms and Conditions of Jax Vending Solutions, LLC.
+            </p>
+            <p className="text-base text-foreground leading-relaxed font-semibold">
+              All prior sections (1–36) remain in full force and effect.
+            </p>
+          </section>
+
           {/* Closing */}
           <section className="border-t border-border/50 pt-8">
             <div className="bg-muted/50 p-6 rounded-lg space-y-3">
