@@ -63,9 +63,7 @@ export const SmartTechnology = () => {
             Intelligent Vending for{" "}
             <span className="text-primary">Modern Spaces</span>
           </h2>
-          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed px-4">
-            Cutting-edge technology meets white-glove service. Every machine is equipped with smart features that work seamlessly.
-          </p>
+          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed px-4">Cutting edge technology meets white glove service. Every machine is equipped with smart features that work seamlessly.</p>
         </motion.div>
 
         {/* Feature cards grid */}
