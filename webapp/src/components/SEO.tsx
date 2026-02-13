@@ -33,7 +33,7 @@ export const SEO = ({
     name: 'Jax Vending Solutions',
     description: 'Premium vending machine services in Jacksonville, FL and surrounding areas including Duval County, St. Johns County, and Nassau County.',
     url: siteUrl,
-    telephone: '(555) 123-4567',
+    telephone: '+1 (904)-334-8708',
     email: 'sales@jaxvendingsolutions.com',
     address: {
       '@type': 'PostalAddress',

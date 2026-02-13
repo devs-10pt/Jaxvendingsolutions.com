@@ -43,7 +43,8 @@ const ContactUs = () => {
     {
       icon: <Phone className="w-5 h-5 sm:w-6 sm:h-6" />,
       title: "Phone",
-      detail: "(555) 123-4567",
+      detail: "+1 (904)-334-8708",
+      href: "tel:+19043348708",
     },
     {
       icon: <Mail className="w-5 h-5 sm:w-6 sm:h-6" />,
@@ -61,7 +62,7 @@ const ContactUs = () => {
     <>
       <SEO
         title="Contact Us - Get a Free Quote for Vending Services"
-        description="Contact Jax Vending Solutions for premium vending machine services in Jacksonville, Duval, St. Johns, and Nassau County. Serving hospitals, schools, apartments, and offices across all ZIP codes. Call (555) 123-4567 or request a free quote today."
+        description="Contact Jax Vending Solutions for premium vending machine services in Jacksonville, Duval, St. Johns, and Nassau County. Serving hospitals, schools, apartments, and offices across all ZIP codes. Call +1 (904)-334-8708 or request a free quote today."
         keywords={[
           "contact vending services Jacksonville",
           "vending machine quote Florida",
@@ -131,15 +132,29 @@ const ContactUs = () => {
                 transition={{ duration: 0.6, delay: index * 0.1, ease: [0.22, 1, 0.36, 1] } as any}
                 viewport={{ once: true } as any}
               >
-                <Card className="p-5 sm:p-6 text-center glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-300 group h-full">
-                  <div className="mb-3 sm:mb-4 inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
-                    {info.icon}
-                  </div>
-                  <h3 className="text-base sm:text-lg font-semibold text-foreground mb-1 sm:mb-2">
-                    {info.title}
-                  </h3>
-                  <p className="text-sm sm:text-base text-muted-foreground break-words">{info.detail}</p>
-                </Card>
+                {info.href ? (
+                  <a href={info.href} className="block h-full">
+                    <Card className="p-5 sm:p-6 text-center glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-300 group h-full cursor-pointer hover:bg-primary/5">
+                      <div className="mb-3 sm:mb-4 inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
+                        {info.icon}
+                      </div>
+                      <h3 className="text-base sm:text-lg font-semibold text-foreground mb-1 sm:mb-2">
+                        {info.title}
+                      </h3>
+                      <p className="text-sm sm:text-base text-primary font-medium break-words">{info.detail}</p>
+                    </Card>
+                  </a>
+                ) : (
+                  <Card className="p-5 sm:p-6 text-center glass-light dark:glass shadow-premium hover:shadow-premium-lg transition-all duration-300 group h-full">
+                    <div className="mb-3 sm:mb-4 inline-flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-primary/10 text-primary group-hover:scale-110 transition-transform duration-300">
+                      {info.icon}
+                    </div>
+                    <h3 className="text-base sm:text-lg font-semibold text-foreground mb-1 sm:mb-2">
+                      {info.title}
+                    </h3>
+                    <p className="text-sm sm:text-base text-muted-foreground break-words">{info.detail}</p>
+                  </Card>
+                )}
               </motion.div>
             ))}
           </div>
@@ -199,7 +214,7 @@ const ContactUs = () => {
                   </label>
                   <Input
                     type="tel"
-                    placeholder="(555) 123-4567"
+                    placeholder="+1 (904)-334-8708"
                     className="bg-background/50 border-border focus:border-primary transition-colors h-11 sm:h-12 text-base"
                   />
                 </div>
