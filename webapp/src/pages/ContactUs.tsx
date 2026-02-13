@@ -308,8 +308,8 @@ const ContactUs = () => {
             <div className="w-full flex justify-center">
               {/* TrustBox script */}
               <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-              {/* Trustpilot Widget */}
-              <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="YOUR_BUSINESS_ID" data-style-height="130px" data-style-width="100%" data-theme="light">
+              {/* Trustpilot Widget - Review Collector */}
+              <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="698e863445c20b8134508f94" data-style-height="52px" data-style-width="100%" data-token="c4259a09-4397-43ab-bda5-4bfacfd23e1f">
                 <a href="https://www.trustpilot.com/review/jaxvendingsolutions.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline text-sm sm:text-base">
                   Trustpilot
                 </a>
