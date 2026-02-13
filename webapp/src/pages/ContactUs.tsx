@@ -295,27 +295,183 @@ const ContactUs = () => {
         </div>
       </section>
 
-      {/* Trustpilot Reviews Widget */}
-      <section className="relative py-12 sm:py-16 lg:py-20 px-4 sm:px-6">
-        <div className="max-w-3xl mx-auto">
+      {/* Reviews Section */}
+      <section className="relative py-12 sm:py-16 lg:py-20 px-4 sm:px-6 bg-gradient-to-br from-primary/5 via-background to-background">
+        <div className="max-w-5xl mx-auto">
+          {/* Section Header */}
           <motion.div
             initial={{ opacity: 0, y: 30 } as any}
             whileInView={{ opacity: 1, y: 0 } as any}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] } as any}
             viewport={{ once: true } as any}
-            className="flex justify-center items-center"
+            className="text-center mb-12 sm:mb-16"
           >
-            <div className="w-full flex justify-center">
-              {/* TrustBox script */}
-              <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-              {/* Trustpilot Widget - Review Collector */}
-              <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="698e863445c20b8134508f94" data-style-height="52px" data-style-width="100%" data-token="70a11936-6992-4f6b-b4e4-2ccc033a54eb">
-                <a href="https://www.trustpilot.com/review/jaxvendingsolutions.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline text-sm sm:text-base">
-                  Trustpilot
-                </a>
-              </div>
-            </div>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-semibold text-foreground mb-4">
+              Trusted by Jacksonville's Best
+            </h2>
+            <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
+              See what our clients say about our premium vending solutions
+            </p>
           </motion.div>
+
+          {/* Reviews Widget Grid */}
+          <div className="grid lg:grid-cols-3 gap-6 sm:gap-8">
+            {/* Left: Custom Review Cards */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 } as any}
+              whileInView={{ opacity: 1, x: 0 } as any}
+              transition={{ duration: 0.8, delay: 0.1, ease: [0.22, 1, 0.36, 1] } as any}
+              viewport={{ once: true } as any}
+              className="lg:col-span-2 space-y-4"
+            >
+              {/* Review Card 1 */}
+              <div className="group p-6 sm:p-8 rounded-2xl bg-card border border-border/50 shadow-premium hover:shadow-premium-lg transition-all duration-300 hover:border-primary/30">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex gap-1">
+                        {[...Array(5)].map((_, i) => (
+                          <svg key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-primary" viewBox="0 0 20 20">
+                            <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span className="text-xs sm:text-sm font-semibold text-primary ml-2">★★★★★</span>
+                    </div>
+                    <h4 className="text-base sm:text-lg font-semibold text-foreground mb-1">
+                      Excellent Service & Support
+                    </h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground mb-3">
+                      Hospital Administrator • Jacksonville Medical Center
+                    </p>
+                  </div>
+                </div>
+                <p className="text-sm sm:text-base text-foreground leading-relaxed">
+                  "Jax Vending Solutions transformed our break room. The machines are reliable, the support is responsive, and our staff absolutely loves the variety. Highly recommended!"
+                </p>
+              </div>
+
+              {/* Review Card 2 */}
+              <div className="group p-6 sm:p-8 rounded-2xl bg-card border border-border/50 shadow-premium hover:shadow-premium-lg transition-all duration-300 hover:border-primary/30">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex gap-1">
+                        {[...Array(5)].map((_, i) => (
+                          <svg key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-primary" viewBox="0 0 20 20">
+                            <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span className="text-xs sm:text-sm font-semibold text-primary ml-2">★★★★★</span>
+                    </div>
+                    <h4 className="text-base sm:text-lg font-semibold text-foreground mb-1">
+                      Perfect for Our School
+                    </h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground mb-3">
+                      School Director • Jacksonville High School
+                    </p>
+                  </div>
+                </div>
+                <p className="text-sm sm:text-base text-foreground leading-relaxed">
+                  "The free machine program is unbeatable. Our students have access to healthy snacks, and it's compliant with nutrition standards. Outstanding value!"
+                </p>
+              </div>
+
+              {/* Review Card 3 */}
+              <div className="group p-6 sm:p-8 rounded-2xl bg-card border border-border/50 shadow-premium hover:shadow-premium-lg transition-all duration-300 hover:border-primary/30">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="flex-1">
+                    <div className="flex items-center gap-2 mb-2">
+                      <div className="flex gap-1">
+                        {[...Array(5)].map((_, i) => (
+                          <svg key={i} className="w-4 h-4 sm:w-5 sm:h-5 fill-primary" viewBox="0 0 20 20">
+                            <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
+                          </svg>
+                        ))}
+                      </div>
+                      <span className="text-xs sm:text-sm font-semibold text-primary ml-2">★★★★★</span>
+                    </div>
+                    <h4 className="text-base sm:text-lg font-semibold text-foreground mb-1">
+                      Tenant Satisfaction Increased
+                    </h4>
+                    <p className="text-xs sm:text-sm text-muted-foreground mb-3">
+                      Property Manager • Downtown Apartments
+                    </p>
+                  </div>
+                </div>
+                <p className="text-sm sm:text-base text-foreground leading-relaxed">
+                  "Adding vending machines was the best amenity upgrade we've made. Tenants love it, and the cashless payment system is seamless. Great partnership!"
+                </p>
+              </div>
+            </motion.div>
+
+            {/* Right: Trustpilot Widget & Stats */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 } as any}
+              whileInView={{ opacity: 1, x: 0 } as any}
+              transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] } as any}
+              viewport={{ once: true } as any}
+              className="lg:col-span-1 space-y-6"
+            >
+              {/* Trustpilot Badge */}
+              <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-card to-card/50 border border-primary/20 shadow-premium">
+                <div className="text-center mb-6">
+                  <h3 className="text-xl sm:text-2xl font-display font-semibold text-foreground mb-2">
+                    Verified Reviews
+                  </h3>
+                  <p className="text-sm text-muted-foreground">
+                    Trusted by verified customers
+                  </p>
+                </div>
+
+                {/* Trustpilot Widget */}
+                <div className="mb-6 flex justify-center">
+                  <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+                  <div className="trustpilot-widget w-full" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="698e863445c20b8134508f94" data-style-height="auto" data-style-width="100%" data-token="70a11936-6992-4f6b-b4e4-2ccc033a54eb">
+                    <a href="https://www.trustpilot.com/review/jaxvendingsolutions.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline text-sm">
+                      View on Trustpilot
+                    </a>
+                  </div>
+                </div>
+
+                {/* Stats */}
+                <div className="space-y-4">
+                  <div className="text-center p-4 rounded-lg bg-primary/5">
+                    <div className="text-3xl sm:text-4xl font-display font-semibold text-primary mb-1">
+                      4.9★
+                    </div>
+                    <p className="text-xs sm:text-sm text-muted-foreground">
+                      Average Rating
+                    </p>
+                  </div>
+
+                  <div className="text-center p-4 rounded-lg bg-primary/5">
+                    <div className="text-2xl sm:text-3xl font-display font-semibold text-primary mb-1">
+                      500+
+                    </div>
+                    <p className="text-xs sm:text-sm text-muted-foreground">
+                      Happy Clients
+                    </p>
+                  </div>
+
+                  <div className="text-center p-4 rounded-lg bg-primary/5">
+                    <div className="text-2xl sm:text-3xl font-display font-semibold text-primary mb-1">
+                      98%
+                    </div>
+                    <p className="text-xs sm:text-sm text-muted-foreground">
+                      Satisfaction Rate
+                    </p>
+                  </div>
+                </div>
+
+                {/* CTA */}
+                <button className="w-full mt-6 px-4 py-3 bg-primary text-primary-foreground font-semibold rounded-lg hover:shadow-premium transition-all duration-300 text-sm sm:text-base min-h-[44px]">
+                  Share Your Experience
+                </button>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
