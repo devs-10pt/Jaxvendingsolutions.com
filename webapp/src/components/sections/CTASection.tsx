@@ -56,7 +56,7 @@ export const Footer = () => {
               Jax Vending Solutions
             </h3>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              Jax Vending Solutions provides <span className="text-primary font-semibold">FREE</span> MACHINES for Jacksonville's finest communities.
+              Jax Vending Solutions provides <span className="text-primary font-semibold">FREE MACHINES</span> for Jacksonville's finest communities.
             </p>
           </div>
 
