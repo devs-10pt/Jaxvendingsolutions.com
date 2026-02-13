@@ -306,9 +306,7 @@ const Machines = () => {
                     <h3 className="text-xl sm:text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
                       Max 620
                     </h3>
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                      High-capacity smart vending for demanding environments. Maximum storage with intelligent management.
-                    </p>
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">High capacity smart vending for demanding environments. Maximum storage with intelligent management.</p>
                   </div>
                   <div className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
@@ -394,9 +392,7 @@ const Machines = () => {
                     <h3 className="text-xl sm:text-2xl lg:text-3xl font-display font-semibold mb-2 text-foreground">
                       Ultra 1200
                     </h3>
-                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">
-                      Enterprise double-door solution for maximum capacity. Dual-zone cooling for unmanned stores and factories.
-                    </p>
+                    <p className="text-sm sm:text-base text-muted-foreground leading-relaxed mb-3 sm:mb-4">Enterprise double door solution for maximum capacity. Dual zone cooling for unmanned stores and factories.</p>
                   </div>
                   <div className="space-y-2 sm:space-y-3 text-xs sm:text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
