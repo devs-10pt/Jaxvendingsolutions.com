@@ -23,9 +23,7 @@ export const CTASection = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-semibold text-foreground mb-4 sm:mb-6 px-2">
             Ready to elevate your space?
           </h2>
-          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10 px-4">
-            Let's discuss how Jax Vending Solutions can bring premium, hassle-free vending to your Jacksonville property.
-          </p>
+          <p className="text-base sm:text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-8 sm:mb-10 px-4">Let's discuss how Jax Vending Solutions can bring premium, FREE vending to your Jacksonville property.</p>
 
           <motion.div
             initial={{ opacity: 0, y: 20 } as any}
