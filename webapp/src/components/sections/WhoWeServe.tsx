@@ -146,7 +146,7 @@ export const WhoWeServe = () => {
         <ServeCard
           title="Apartments & Communities"
           headline="Premium amenities that residents love"
-          description="Elevate your property with modern vending that feels like a luxury convenience store. Late-night snacks, morning coffee, forgotten essentials all at their fingertips."
+          description="Elevate your property with modern vending that feels like a luxury convenience store. Late night snacks, morning coffee, forgotten essentials all at their fingertips."
           imagePosition="left"
           imageUrl="/apartments-communities.png"
           index={2}
